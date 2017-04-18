@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{9B20090A-EC06-41D4-BB51-373A3B39709C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>LibEngine</RootNamespace>
+    <ProjectName>LibXMEngine</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120_xp</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="..\..\LibEngineTest\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\LibEngineTest\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="..\..\LibEngineTest\cocos2d\cocos\2d\cocos2d_headers.props" />
+    <Import Project="..\..\LibEngineTest\cocos2d\cocos\2d\cocos2dx.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <MultiProcessorCompilation>false</MultiProcessorCompilation>
+      <AdditionalIncludeDirectories>..;..\..;$(EngineRoot)extensions;$(EngineRoot)cocos\audio\include;$(EngineRoot);$(ProjectDir)..\Classes;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4819;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <AdditionalOptions>/Zm200 %(AdditionalOptions)</AdditionalOptions>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\audio\HNAudioEngine.h" />
+    <ClInclude Include="..\Classes\data\json\JsonParser.h" />
+    <ClInclude Include="..\Classes\data\xml\XMLParser.h" />
+    <ClInclude Include="..\Classes\globel\ApplicationMacro.h" />
+    <ClInclude Include="..\Classes\globel\FontSize.h" />
+    <ClInclude Include="..\Classes\globel\HNCommonMarco.h" />
+    <ClInclude Include="..\Classes\HNBaseType.h" />
+    <ClInclude Include="..\Classes\HNEngineExport.h" />
+    <ClInclude Include="..\Classes\HNUIExport.h" />
+    <ClInclude Include="..\Classes\network\http\HNHttp.h" />
+    <ClInclude Include="..\Classes\network\socket\HNNetMessageHead.h" />
+    <ClInclude Include="..\Classes\network\socket\HNSocket.h" />
+    <ClInclude Include="..\Classes\network\socket\HNSocketEventDelegate.h" />
+    <ClInclude Include="..\Classes\network\socket\HNSocketLogic.h" />
+    <ClInclude Include="..\Classes\network\socket\HNSocketMessage.h" />
+    <ClInclude Include="..\Classes\network\socket\HNSocketMessageDelegate.h" />
+    <ClInclude Include="..\Classes\network\socket\HNSocketProtocolData.h" />
+    <ClInclude Include="..\Classes\network\socket\HNSocketSelector.h" />
+    <ClInclude Include="..\Classes\network\socket\HNSocketThread.h" />
+    <ClInclude Include="..\Classes\pattern\command\Command.h" />
+    <ClInclude Include="..\Classes\pattern\command\CommandManager.h" />
+    <ClInclude Include="..\Classes\pattern\state\BaseState.h" />
+    <ClInclude Include="..\Classes\pattern\state\StateManager.h" />
+    <ClInclude Include="..\Classes\render\GraphicsUtils.h" />
+    <ClInclude Include="..\Classes\test\HNConverCode.h" />
+    <ClInclude Include="..\Classes\test\HNLog.h" />
+    <ClInclude Include="..\Classes\test\HNSingleAutoPtr.h" />
+    <ClInclude Include="..\Classes\test\WireframeOnOff.h" />
+    <ClInclude Include="..\Classes\tmp\HNBaseCommand.h" />
+    <ClInclude Include="..\Classes\tmp\HNCommonMarco.h" />
+    <ClInclude Include="..\Classes\tmp\HNComStruct.h" />
+    <ClInclude Include="..\Classes\tmp\HNMemoryPool.h" />
+    <ClInclude Include="..\Classes\tmp\HNPlatformMessage.h" />
+    <ClInclude Include="..\Classes\tmp\HNRoomMessage.h" />
+    <ClInclude Include="..\Classes\tmp\PlatformConfig.h" />
+    <ClInclude Include="..\Classes\ui\base\ACheckBox.h" />
+    <ClInclude Include="..\Classes\ui\base\AControlButton.h" />
+    <ClInclude Include="..\Classes\ui\base\ASlider.h" />
+    <ClInclude Include="..\Classes\ui\base\ATableView.h" />
+    <ClInclude Include="..\Classes\ui\base\ATableViewDelegate.h" />
+    <ClInclude Include="..\Classes\ui\base\AUIButton.h" />
+    <ClInclude Include="..\Classes\ui\base\BTableView.h" />
+    <ClInclude Include="..\Classes\ui\base\HNEditBox.h" />
+    <ClInclude Include="..\Classes\ui\base\HNLayer.h" />
+    <ClInclude Include="..\Classes\ui\base\HNLayerColor.h" />
+    <ClInclude Include="..\Classes\ui\base\HNNode.h" />
+    <ClInclude Include="..\Classes\ui\base\HNScene.h" />
+    <ClInclude Include="..\Classes\ui\base\HNSprite.h" />
+    <ClInclude Include="..\Classes\ui\extensions\CheckCSBLayer.h" />
+    <ClInclude Include="..\Classes\ui\extensions\CheckTextureLayer.h" />
+    <ClInclude Include="..\Classes\ui\extensions\ClipSprite.h" />
+    <ClInclude Include="..\Classes\ui\extensions\CycScrollView.h" />
+    <ClInclude Include="..\Classes\ui\extensions\Effect.h" />
+    <ClInclude Include="..\Classes\ui\extensions\HNDialogBase.h" />
+    <ClInclude Include="..\Classes\ui\extensions\HNShake.h" />
+    <ClInclude Include="..\Classes\ui\extensions\HRocker.h" />
+    <ClInclude Include="..\Classes\ui\extensions\LoadingLayer.h" />
+    <ClInclude Include="..\Classes\ui\extensions\MyProgressTimer.h" />
+    <ClInclude Include="..\Classes\ui\extensions\ParallaxScrollingLayer.h" />
+    <ClInclude Include="..\Classes\ui\extensions\RotateMenu.h" />
+    <ClInclude Include="..\Classes\ui\extensions\RotateMenuOne.h" />
+    <ClInclude Include="..\Classes\ui\extensions\TextSprite.h" />
+    <ClInclude Include="..\Classes\ui\extensions\TextureLayer.h" />
+    <ClInclude Include="..\Classes\ui\extensions\UIGoldRain.h" />
+    <ClInclude Include="..\Classes\ui\extensions\UserHead.h" />
+    <ClInclude Include="..\Classes\utils\Tools.h" />
+    <ClInclude Include="..\HNNetworkExport.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\audio\HNAudioEngine.cpp" />
+    <ClCompile Include="..\Classes\data\json\JsonParser.cpp" />
+    <ClCompile Include="..\Classes\data\xml\XMLParser.cpp" />
+    <ClCompile Include="..\Classes\network\http\HNHttp.cpp" />
+    <ClCompile Include="..\Classes\network\socket\HNSocket.cpp" />
+    <ClCompile Include="..\Classes\network\socket\HNSocketLogic.cpp" />
+    <ClCompile Include="..\Classes\network\socket\HNSocketMessage.cpp" />
+    <ClCompile Include="..\Classes\network\socket\HNSocketProtocolData.cpp" />
+    <ClCompile Include="..\Classes\network\socket\HNSocketThread.cpp" />
+    <ClCompile Include="..\Classes\pattern\command\CommandManager.cpp" />
+    <ClCompile Include="..\Classes\pattern\state\StateManager.cpp" />
+    <ClCompile Include="..\Classes\render\GraphicsUtils.cpp" />
+    <ClCompile Include="..\Classes\test\HNConverCode.cpp" />
+    <ClCompile Include="..\Classes\test\HNLog.cpp" />
+    <ClCompile Include="..\Classes\test\WireframeOnOff.cpp" />
+    <ClCompile Include="..\Classes\tmp\HNBaseCommand.cpp" />
+    <ClCompile Include="..\Classes\tmp\HNMemoryPool.cpp" />
+    <ClCompile Include="..\Classes\tmp\PlatformConfig.cpp" />
+    <ClCompile Include="..\Classes\ui\base\ACheckBox.cpp" />
+    <ClCompile Include="..\Classes\ui\base\AControlButton.cpp" />
+    <ClCompile Include="..\Classes\ui\base\ASlider.cpp" />
+    <ClCompile Include="..\Classes\ui\base\ATableView.cpp" />
+    <ClCompile Include="..\Classes\ui\base\ATableViewDelegate.cpp" />
+    <ClCompile Include="..\Classes\ui\base\AUIButton.cpp" />
+    <ClCompile Include="..\Classes\ui\base\BTableView.cpp" />
+    <ClCompile Include="..\Classes\ui\base\HNEditBox.cpp" />
+    <ClCompile Include="..\Classes\ui\base\HNLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\base\HNLayerColor.cpp" />
+    <ClCompile Include="..\Classes\ui\base\HNNode.cpp" />
+    <ClCompile Include="..\Classes\ui\base\HNScene.cpp" />
+    <ClCompile Include="..\Classes\ui\base\HNSprite.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\CheckCSBLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\CheckTextureLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\ClipSprite.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\CycScrollView.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\Effect.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\HNDialogBase.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\HNShake.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\HRocker.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\LoadingLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\MyProgressTimer.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\ParallaxScrollingLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\RotateMenu.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\RotateMenuOne.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\TextSprite.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\TextureLayer.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\UIGoldRain.cpp" />
+    <ClCompile Include="..\Classes\ui\extensions\UserHead.cpp" />
+    <ClCompile Include="..\Classes\utils\Tools.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Classes\pattern\state\tmp.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

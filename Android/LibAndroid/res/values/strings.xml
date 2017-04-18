@@ -1,0 +1,2251 @@
+<resources>
+
+    <string name="app_name">"龙狼传奇"</string>
+    <string name="loading">"载入中"</string>
+    <string name="ResolutionNotice">"您的手机分辨率较低，游戏体验会降低，是否继续游戏？"</string>
+    <string name="APIVERSIONNotice">"该版本暂不支持2.1系统,请见谅。"</string>
+    <string name="debug_server">"研发内网服务器"</string>
+    <string name="test_server">"质控环境服务器"</string>
+    <string name="wan">"万"</string>
+    <string name="activityTips_ing">"正在进行中"</string>
+
+    <!-- 军团信息 -->
+    <string name="legiondetail_mydonate">"我的军团贡献值:"</string>
+    <string name="legiondetail_legionInfo">"军团信息"</string>
+    <string name="legiondetail_legionDes">"军团公告"</string>
+    <string name="legiondetail_detail">"军团概况"</string>
+    <string name="legiondetail_notCanUse">"您才加入军团第一天,无法使用该功能。请明天再来!"</string>
+
+    <!-- 军团创建 -->
+    <string name="legionCreate_title">"军团创建"</string>
+    <string name="legionCreate_copper">"消耗%s铜钱创建"</string>
+    <string name="legionCreate_ingot">"消耗%s元宝创建"</string>
+    <string name="legionCreate_name">"军团名称:"</string>
+    <string name="legionCreate_flag">"军团旗帜:"</string>
+    <string name="legionCreate_input">"输入军团名称"</string>
+    <string name="legionCreate_inputError">"输入的军团名称不能为空"</string>
+    <string name="legionCreate_notEnoughMoney">"金钱不足,创建军团需要%s铜钱"</string>
+    <string name="legionCreate_notEnoughIngot">"元宝不足,创建军团需要%s元宝"</string>
+
+    <!-- 军团科技 -->
+    <string name="legionTech_title">"军团科技"</string>
+    <string name="legionTech_canUseDonate">"可用军团贡献:"</string>
+    <string name="legionTech_techMax">"当前军团科技等级已达上限"</string>
+    <string name="legionTech_techLegionLvS">"{#ffffff军团等级%s级}"</string>
+    <string name="legionTech_techLegionLvF">"{#ff0000军团等级%s级}"</string>
+    <string name="legionTech_curTechLv">"%1$s强化LV%2$s"</string>
+    <string name="legionTech_reqTechInfo">"军团科技正在获取中....."</string>
+    <string name="legionTech_curInfo">"当前%1$s+%2$s"</string>
+    <string name="legionTech_nextInfo">"下级%1$s+%2$s"</string>
+    <string name="legionTech_levelCon">"升级条件"</string>
+    <string name="legionTech_legionLvCon">"军团等级%s"</string>
+    <string name="legionTech_legionPreCon">"%1$s强化LV%2$s"</string>
+    <string name="legionTech_legionDonateCon">"%s军团贡献值"</string>
+    <string name="legionTech_totalPro">"总属性加成"</string>
+    <string name="legionTech_techLegionLVerror">"当前军团科技等级已达上限,请提升军团等级"</string>
+    <string name="legionTech_techPreTechLVerror">"当前科技升级的前置条件不满足!"</string>
+    <string name="legionTech_techLVerror">"升级条件有误"</string>
+    <string name="legionTech_techDonateError">"军团贡献不足"</string>
+
+    <!-- 军团任命 -->
+    <string name="legionAppoint_appoint">"任命"</string>
+    <string name="legionAppoint_leader">"军团长"</string>
+    <string name="legionAppoint_secondLeader">"副军团长"</string>
+    <string name="legionAppoint_member">"成员"</string>
+    <string name="legionAppoint_outGuild">"踢出军团"</string>
+    <string name="leigonAppoint_notSelf">"不能对自己进行操作哦~~~"</string>
+    <string name="legionAppoint_notHandleLeader">"小主，你这是要谋反嚒?万万不可丫!"</string>
+    <string name="legionAppoint_notHandleViceLeader">"小主不可和同僚反目哦!"</string>
+    <string name="legionAppoint_exchangeLeader">"是否转让军团长职位给【%s】"</string>
+
+    <!-- 军团设置 -->
+    <string name="legionApplySet_title">"申请设置"</string>
+    <string name="legionApplySet_allNeedCheck">"所有申请需通过审批"</string>
+    <string name="legionApplySet_allPass">"自动批准所有申请"</string>
+
+    <!-- 军团记录 -->
+    <string name="legionRecord_none">"这个军团比较懒,暂时没有军团记录"</string>
+    <string name="legionRecord_title">"军团记录"</string>
+
+    <!-- 军团捐献 -->
+    <string name="legionDonate_title">"每日捐献"</string>
+    <string name="legionDonate_desc">"每天都为军团贡献一些力量，聚集军团所有人的微薄力量，使军团变得更加强大。"</string>
+    <string name="legionDonate_leftTime">"剩余捐献次数:"</string>
+    <string name="legionDonate_error">"当前捐献的材料数量不足!"</string>
+    <string name="legionDonate_noleftTime">"剩余捐献次数不足!"</string>
+
+    <!-- 军团升级 -->
+    <string name="legionLevelUp_title">"军团升级"</string>
+    <string name="legionLevelUp_maxLevel">"已经达到最高等级"</string>
+    <string name="legionLevelUp_errorExpLack">"军团升级所需经验不足!"</string>
+    <string name="legionLevelUp_errorMoneyLack">"军团升级所需资金不足!"</string>
+    <string name="legionLevelUp_errorWoodLack">"军团升级所需木料不足!"</string>
+    <string name="legionLevelUp_errorWoolLack">"军团升级所需毛料不足!"</string>
+    <string name="legionLevelUp_errorStoneLack">"军团升级所需石料不足!"</string>
+    <string name="legionLevelUp_errorNoHandleRight">"您没有升级军团的权限!"</string>
+
+    <!-- 军团藏宝阁 -->
+    <string name="legionCbg_flushtime">"刷新时间：24:00:00"</string>
+
+    <!-- 物品信息 -->
+    <string name="msgTips_prof">"职业 :"</string>
+    <string name="msgTips_type">"类型 :"</string>
+    <string name="msgTips_lv">"等级 :"</string>
+    <string name="msgTips_upperlimit">"堆叠上限 :"</string>
+    <string name="msgTips_price">"售价 :"</string>
+
+    <!-- 功能使用提示 -->
+    <string name="funTips_proFight">"战力提升"</string>
+
+    <!-- 活动助手 -->
+    <string name="activityHelper_saturdayopen">"周六开放"</string>
+    <string name="activityHelper_sundayopen">"周日开放"</string>
+    <string name="activityHelper_levelOpen">"%s级开启"</string>
+    <string name="activityHelper_open">"开启"</string>
+    <string name="activityHelper_moneyTreeTips">"尚未加入军团"</string>
+    <string name="activityHelper_moneyTreeNotOpen">"聚宝树尚未开放"</string>
+    <string name="activityHelper_allDayOpen">"全天开放"</string>
+    <string name="activityHelper_join">"立即参加"</string>
+    <string name="activityHelper_end">"已结束"</string>
+    <string name="activityHelper_time">"活动时间  : "</string>
+    <string name="activityHelper_desc">"{#e49517活动描述  : }{%s}"</string>
+    <string name="activityHelper_award">"活动奖励  : "</string>
+
+    <!-- 平时 -->
+    <string name="tips_loadtimeout">"加载超时！"</string>
+
+    <!-- 跳转提示 -->
+    <string name="trans_error">""角色等级不足，无法参与该活动"</string>
+
+    <!-- 其他玩家功能 -->
+    <string name="otherRole_alreadyFriends">"对方已经是你的好友了!"</string>
+    <string name="otherRole_own">"不可对自己进行操作！"</string>
+    <string name="otherRole_addFriendSuc">"成功发送好友请求!"</string>
+    <string name="otherRole_addBlackSuc">"成功将对方加入黑名单"</string>
+    <string name="otherRole_blacking">"%s是你的好友，确定将其加入黑名单吗？"</string>
+    <string name="otherRole_alreadyInTeam">"对方已经在队伍中"</string>
+    <string name="otherRole_addToTeamSuc">"成功发送组队请求"</string>
+
+    <!-- pause menu -->
+    <string name="pause_player">"人物"</string>
+    <string name="pause_equip">"装备"</string>
+    <string name="pause_package">"背包"</string>
+    <string name="pause_task">"任务"</string>
+    <string name="storage">"仓库"</string>
+    <string name="pause_social">"社交"</string>
+    <string name="pause_Friend">"好友"</string>
+    <string name="pause_ranking">"排行"</string>
+    <string name="pause_business">"商城"</string>
+    <string name="pause_full">"账号充值"</string>
+    <string name="pause_item">"道具商城"</string>
+    <string name="pause_option">"设置"</string>
+    <string name="pause_game_help">"游戏帮助"</string>
+    <string name="pause_game_option">"游戏设置"</string>
+    <string name="pause_view_option">"画面设置"</string>
+    <string name="pause_sound_option">"声音设置"</string>
+    <string name="pause_Vibrator_option">"震动"</string>
+    <string name="pause_exit">"退出"</string>
+    <string name="pause_exit_game">"离开游戏"</string>
+    <string name="pause_exit_game_notice">"确定要退出吗？"</string>
+    <string name="pause_exit_select">"选择角色"</string>
+    <string name="pause_exit_accounts">"换号登录"</string>
+    <string name="pause_exit_server">"切换服务器"</string>
+    <string name="pause_accounts_set">"账号设置"</string>
+
+    <!-- pause menu new ** -->
+    <string name="pause_d_package">"背包"</string>
+    <string name="pause_d_skill">"技能"</string>
+    <string name="pause_d_legion">"军团"</string>
+    <string name="pause_d_task">"任务"</string>
+    <string name="pause_d_guild">"行会"</string>
+    <string name="pause_d_fix">"炼器"</string>
+    <string name="pause_d_challenge">"擂台"</string>
+    <string name="pause_d_boss">"世界BOSS"</string>
+    <string name="pause_d_trade">"商城"</string>
+    <string name="pause_d_assistant">"小助手"</string>
+    <string name="pause_d_hang">"挂机"</string>
+    <string name="pause_d_consignment">"寄售行"</string>
+    <string name="pause_d_accomplishment">"成就"</string>
+    <string name="pause_d_full">"充值"</string>
+    <string name="pause_d_service">"客服"</string>
+    <string name="pause_d_gamelive">"GameLive"</string>
+    <string name="pause_d_exit">"退出"</string>
+    <!-- <string name="pause_d_mail">"信件"</string> -->
+    <string name="pause_d_mail">"邮件"</string>
+    <string name="remote_shop">"远程商店"</string>
+    <string name="skip">"跳过"</string>
+    <string name="click_continue">"【点击继续】"</string>
+
+    <!-- relive notice -->
+    <string name="player_die_0">"角色将于 "</string>
+    <string name="player_die_1">" 秒后复活"</string>
+
+    <!-- 挂机 -->
+    <string name="hang_withoutMonster">"当前地图找不到指定攻击目标！"</string>
+
+    <!-- 游戏设置 -->
+    <string name="game_option_control">"虚拟摇杆行走 "</string>
+    <string name="game_option_autoselect">"自动选择怪物和敌人"</string>
+    <string name="game_option_moreselect">"增大点选范围"</string>
+    <string name="game_option_minimap">"显示小地图"</string>
+    <string name="game_option_net">"流量提醒"</string>
+    <string name="game_option_guild">"显示公会成员名字"</string>
+
+    <!-- 成就点 -->
+    <string name="achievementMain_name">"我的成就 "</string>
+    <string name="achievementCur">"当前成就点 "</string>
+    <string name="achievementOver">"已完成 "</string>
+    <string name="achievementNotice">"成长任务可以指引你完成更多成就 "</string>
+
+    <!-- 冷却入口 -->
+    <string name="cool_time_str0">"炼器孔1"</string>
+    <string name="cool_time_str1">"炼器孔2"</string>
+    <string name="cool_time_str2">"炼器孔3"</string>
+    <string name="cool_time_str3">"技能升级"</string>
+    <string name="cool_time_kaiqi">"开启"</string>
+    <string name="cool_time_jiasu">"加速"</string>
+    <string name="cool_time_lianqi">"炼器"</string>
+    <string name="cool_time_shengji">"升级"</string>
+
+    <!-- friend -->
+    <string name="string_friend">"好友"</string>
+    <string name="string_friend_notice">"当前无好友，可选中玩家点击头像进行添加"</string>
+    <string name="string_friend_upline">"上线了"</string>
+    <string name="string_friend_downline">"下线了"</string>
+    <string name="string_friend_add">"添加"</string>
+    <string name="string_friend_delete">"删除"</string>
+    <string name="string_friend_add_succes">"成功"</string>
+    <string name="string_blackList_add_succes">"进黑名单成功"</string>
+    <string name="string_blackList">"黑名单"</string>
+    <string name="string_blackList_notice">"当前无黑名单，可选中玩家点击头像进行添加，添加后将屏蔽该玩家消息"</string>
+    <string name="string_AGENTE">"仇人"</string>
+    <string name="string_MyAGENTE">"我的仇人"</string>
+    <string name="string_AGENTE_notice">"当前无仇人，被其他玩家击杀后系统将自动添加"</string>
+    <!-- string name="string_blackList_notice">"该账号不能移至黑名单！"</string -->
+    <string name="string_FriendInputButton">"请输入名称"</string>
+    <string name="string_FriendaddButton">"添加好友"</string>
+    <string name="string_friend_chat">"私聊"</string>
+    <string name="string_friend_intoBlackList">"移至黑名单"</string>
+    <string name="string_friend_addfriend">"加为好友"</string>
+    <string name="string_friend_delfriend">"删除此人"</string>
+    <string name="string_friend_transmit">"传送"</string>
+    <string name="string_friend_confirm">"是否真的要将（角色昵称）移至黑名单 ？"</string>
+    <string name="string_friend_confirm_yes">"是"</string>
+    <string name="string_friend_confirm_no">"再考虑一下"</string>
+
+    <!-- Tips Window name -->
+    <string name="tips_start_chat">"设置私聊"</string>
+    <string name="tips_show_info">"查看信息"</string>
+    <string name="tips_add_friend">"添加好友"</string>
+    <string name="tips_invite_team">"申请入队"</string>
+    <string name="tips_apply_troop">"邀请入队"</string>
+
+    <!-- player package operate button -->
+    <string name="package_kz">"扩展"</string>
+    <string name="package_sd">"商城"</string>
+    <string name="package_zl">"整理"</string>
+    <string name="package_all">"全部"</string>
+    <string name="package_zb">"装备"</string>
+    <string name="package_yp">"药品"</string>
+    <string name="package_cl">"材料"</string>
+    <string name="package_pm">"寄卖"</string>
+    <string name="package_lpx">"礼品箱"</string>
+    <string name="package_cz">"充值"</string>
+    <string name="package_ZL">"整理"</string>
+    <string name="package_one">"壹"</string>
+    <string name="package_two">"贰"</string>
+    <string name="package_three">"叁"</string>
+    <string name="package_four">"肆"</string>
+    <string name="package_unlock">"是否解锁背包？"</string>
+    <string name="package_decompose_levellimit">"装备等级不能超过角色等级10级！"</string>
+    <string name="package_decompose_unweave">"该装备不可分解！"</string>
+    <string name="package_decompose_withoutequip">"背包中不存在需要分解的装备。"</string>
+    <string name="package_unlock_he">"和"</string>
+    <string name="package_unlock_spendLack">"金钱不足，开启背包失败。(需要%1$s铜钱和%2$s元宝)!"</string>
+    <!-- shop button -->
+    <string name="shop_title">"商城"</string>
+    <string name="shop_exploit_title">"功勋商城"</string>
+    <string name="shop_buy">"购买"</string>
+    <string name="shop_give">"赠送"</string>
+    <string name="shop_new">"最新"</string>
+    <string name="shop_weapon">"武器"</string>
+    <string name="shop_chothes">"服装"</string>
+    <string name="shop_headgear">"首饰"</string>
+    <string name="shop_assist">"辅助"</string>
+    <string name="shop_other">"其他"</string>
+    <string name="shop_exchange">"兑换区"</string>
+    <string name="shop_belt">"腰带"</string>
+    <string name="shop_boots">"靴子"</string>
+    <string name="shop_ring">"戒指"</string>
+    <string name="shop_bangle">"手镯"</string>
+    <string name="shop_necklace">"项链"</string>
+    <string name="shop_recharge">"充值"</string>
+    <string name="shop_yuanbao">"点券"</string>
+    <string name="shop_exploit">"功勋"</string>
+    <string name="shop_yuanbaoyuer">"点券余额:"</string>
+    <string name="shop_exploityuer">"功勋值:"</string>
+    <string name="shop_bandingyuanbao">"绑定元宝余额:"</string>
+    <string name="shop_validity">"有效期"</string>
+    <string name="shop_data">"天"</string>
+    <string name="shop_giveup">"放弃"</string>
+    <string name="shop_forever">"永久"</string>
+    <string name="shop_choose">"请进行选择！"</string>
+
+    <!-- 商城 -->
+    <string name="mall_recommond">"推荐"</string>
+    <string name="mall_vip">"VIP专区"</string>
+    <string name="mall_limitTimeOut">"当前物品限购次数已满！"</string>
+    <string name="mall_viplimit">"小主不可以哦，只有到达VIP%s的时候才能购买！"</string>
+    <string name="mall_notEnoughMoney">"余额不足！"</string>
+    <string name="mall_buySucc">"购买成功:获得%1$s*%2$s,消耗%3$s*%4$s"</string>
+    <string name="mall_autoFresh">"%s后自动刷新"</string>
+
+    <!-- npc package operate button -->
+    <string name="npc_operate_gm">"购买"</string>
+    <string name="npc_operate_cs">"出售"</string>
+    <string name="npc_operate_qx">"取消"</string>
+    <string name="npc_operate_qc">"清除"</string>
+    <string name="package_full">"您的背包已满，请清理后再"</string>
+    <string name="package_full_buy">"进行购买！"</string>
+    <string name="package_full_get">"拾取！"</string>
+    <string name="package_full1">"请整理后再来，因为您的背包没有足够的空间。"</string>
+    <string name="package_full2">"您的背包没有足够的空间，无法拾取。"</string>
+
+    <!-- info -->
+    <string name="info_none">"无"</string>
+    <string name="info_legion">"军团 "</string>
+    <string name="info_stamina">"体质 "</string>
+    <!-- <string name="info_hp">"生命值 "</string> -->
+    <string name="info_hp">"生命 "</string>
+    <string name="info_mp">"魔法值 "</string>
+    <!-- <string name="info_attack">"攻击力 "</string> -->
+    <string name="info_attack">"攻击 "</string>
+    <!-- <string name="info_defend">"防御力"</string> -->
+    <string name="info_defend">"防御 "</string>
+    <string name="info_aoist">"道术攻击 "</string>
+    <string name="info_magic_defend">"魔防力 "</string>
+    <string name="info_magic_attack">"魔法攻击 "</string>
+    <string name="info_credit">"声望 "</string>
+    <string name="info_luck">"幸运 "</string>
+    <string name="info_curse">"诅咒 "</string>
+    <string name="info_name">"昵称 "</string>
+    <string name="info_level">"等级 "</string>
+    <string name="info_exp">"经验值 "</string>
+    <string name="info_credit_guild">"军团 "</string>
+    <string name="info_credit_officalposition">"官职 "</string>
+    <string name="info_credit_marriage">"夫妻称号 "</string>
+    <string name="info_military">"军功 "</string>
+    <string name="info_pvpintensity">"PVP强度 "</string>
+    <string name="info_pvptenacity">"PVP韧性 "</string>
+    <string name="info_hit">"精准 "</string>
+    <string name="info_hitrate">精准率</string>
+    <!-- <string name="info_avoid">"躲避 "</string> -->
+    <string name="info_tenacity">"韧性 "</string>
+    <string name="info_avoid">"闪避 "</string>
+    <string name="info_avoidRate">"闪避率"</string>
+    <string name="info_magic_hit">"魔法命中 "</string>
+    <string name="info_magic_avoid">"魔法躲避 "</string>
+    <string name="info_critical">"暴击 "</string>
+    <string name="info_criticalRate">"暴击率"</string>
+    <string name="info_criticalDamage">"爆伤 "</string>
+    <string name="info_reduce_criticalDamage">"爆伤减免 "</string>
+    <!-- <string name="info_reduce_critical">"降低暴击 "</string> -->
+    <string name="info_reduce_critical">"暴击减免 "</string>
+    <string name="info_fanshang">"反伤"</string>
+    <string name="info_reduce_fanshang">"降低反伤 "</string>
+    <string name="info_advance_Splash">"攻击速度"</string>
+    <string name="info_advance_move">"移动速度 "</string>
+    <string name="info_achievement">"成就点 "</string>
+    <string name="info_packageload">"背包重量 "</string>
+    <string name="info_bearload">"负重量 "</string>
+    <string name="info_brawn">"腕力 "</string>
+    <string name="info_pk">"PK值 "</string>
+    <string name="pk_title_reduce">"减少"</string>
+    <string name="pk_reduce">"减少XX点PK值花费XXX元宝"</string>
+    <string name="pk_no_notice">"下次不再提示"</string>
+    <string name="info_user_name">"用户名"</string>
+    <string name="info_password">"密码"</string>
+    <string name="info_mate">"配偶 "</string>
+    <string name="info_credit_level">"等级称号 "</string>
+    <string name="info_poison_avoid">"中毒躲避 "</string>
+    <string name="info_poison_recove">"中毒恢复 "</string>
+    <string name="info_max_bearload">"最大负重 "</string>
+    <string name="info_max_packageload">"最大背包负载 "</string>
+    <string name="info_max_brawn">"最大腕力 "</string>
+    <string name="info_hp_recove">"生命恢复 "</string>
+    <string name="info_mp_recove">"魔法恢复 "</string>
+    <string name="info_speed">"移动 "</string>
+    <string name="info_intelligence">"智力 "</string>
+    <string name="info_agile">"敏捷 "</string>
+    <string name="info_strength">"力量 "</string>
+    <string name="info_armor">"护甲"</string>
+    <string name="notice">"[提示]"</string>
+    <!-- 熔炼 -->
+    <string name="dragonkingting_smeltwithoutSelect">"您当前并未设置品质，请设置后重试！"</string>
+    <string name="dragonkingting_witherror">"当前品质设置异常，请重新设置后尝试！"</string>
+    <string name="dragonkingting_tips">"提示：点击背包中的装备来选择需要熔炼的装备。"</string>
+    <string name="dragonkingting_withoutequip">"没有符合筛选条件的装备！"</string>
+    <string name="dragonkingting_withselecteduncanweave">"没有符合分解条件的装备！"</string>
+    <string name="dragonkingting_withoutequiporuncanweave">"没有符合筛选条件的装备或者当前的装备不可分解！"</string>
+    <string name="dragonkingting_levellimit">"当前选择的装备超过等级限制无法熔炼！"</string>
+    <string name="dragonkingting_cannotweave">"当前选择的装备不能分解！"</string>
+    <string name="dragonkingting_vip2smelt">"VIP2且等级达到25级的玩家可以使用"</string>
+    <!-- skill -->
+    <string name="skill_type_sword_low">"初级剑法"</string>
+    <string name="skill_addexp">"增加经验 "</string>
+    <string name="skill_addexp_notice">"确定将角色经验增加到该技能上吗？（增加后角色经验会减少 "</string>
+    <string name="skill_levelup">"提升技能 "</string>
+    <string name="skill_levelup_notice">"升级当前技能需要支付金币（ "</string>
+    <string name="skill_notUpgrade_notice">"升级所需金币不足，不能提升等级!"</string>
+    <string name="skill_levelup_notice2">"），确定学习吗？ "</string>
+    <string name="skill_unstudy">"(未学习)"</string>
+    <string name="skill_levelup_suc_0">"“"</string>
+    <string name="skill_levelup_suc_1">"”升级成功，当前等级（"</string>
+    <string name="skill_levelup_suc_2">"）级"</string>
+    <string name="skill_addexp_suc_0">"技能经验增加了（"</string>
+    <string name="skill_addexp_suc_1">"）"</string>
+    <string name="skill_usetype_passive">"被动技能"</string>
+    <string name="skill_usetype_active">"主动技能"</string>
+    <string name="skill_setup_help">"将技能图标拖到对应的按键即可装配"</string>
+    <string name="skill_default">"默认技能设置"</string>
+    <string name="skill_gold">"我的金币："</string>
+    <string name="skill_goldIngot">"我的元宝："</string>
+    <string name="skill_fail">"路径无效，技能释放失败"</string>
+    <string name="skill_unPkModel">"和平模式下不能释放该技能 "</string>
+    <string name="skill_safeeare">"主城内要相亲相爱，勿有怒气"</string>
+    <string name="skill_equip_info">"此技能不能装备到默认技能栏"</string>
+    <string name="get_experience">"经验值 +"</string>
+    <string name="sub_experience">"经验值 -"</string>
+    <string name="get_levelup">"等级升至 "</string>
+
+    <!-- Kriegserfolg -->
+    <string name="Kriegserfolg_lv">"竞技等级"</string>
+    <string name="Kriegserfolg_name">"竞技称号 "</string>
+    <string name="Kriegserfolg_mark">"竞技分数 "</string>
+    <string name="Kriegserfolg_PL">"竞技排名 "</string>
+    <string name="Kriegserfolg_exploit">"竞技功勋 "</string>
+    <string name="Kriegserfolg_win">"胜利 "</string>
+    <string name="Kriegserfolg_fail">"失败 "</string>
+    <string name="Kriegserfolg_draw">"平局 "</string>
+    <string name="Kriegserfolg_kill">"击杀 "</string>
+    <string name="Kriegserfolg_killed">"被击杀 "</string>
+
+    <!-- head menu -->
+    <string name="head_menu_equip">"查看装备"</string>
+    <string name="head_menu_friend">"加为好友"</string>
+    <string name="head_menu_chat">"私聊"</string>
+    <string name="head_menu_checkout">"查看"</string>
+    <string name="head_menu_copyname">"复制名字"</string>
+    <string name="head_menu_team">"申请组队"</string>
+    <string name="head_menu_team2">"邀请组队"</string>
+    <string name="head_menu_trade">"交易申请"</string>
+    <string name="head_menu_blackname">"加黑名单"</string>
+    <string name="head_menu_stall">"查看摊位"</string>
+    <string name="head_menu_guild">"邀请加入行会"</string>
+
+    <!-- team -->
+    <string name="team_far">"(远离)"</string>
+    <string name="team_add">"加入了队伍"</string>
+    <string name="team_removeout">"确定将队友{#00ff00%s}从队伍中移除?"</string>
+    <string name="team_changeLeader">"确定将队长转交给队友{#00ff00%s}?"</string>
+    <string name="team_diss">"确定要解散队伍{#00ff00%s}?"</string>
+    <string name="team_exit">"确定要退出队伍{#00ff00%s}?"</string>
+
+    <!-- package -->
+    <string name="package_curr_equip">"(当前装备)"</string>
+    <string name="input_defalust">"请输入"</string>
+
+    <!-- 装备镶嵌 -->
+    <string name="embed_equip_xiangqian">"镶嵌"</string>
+    <string name="embed_equip_dakong">"打孔"</string>
+    <string name="embed_equip_kouchu">"抠除"</string>
+    <string name="embed_equip_info">"放入需要镶嵌的装备"</string>
+    <string name="embed_goods_info">"放入需要镶嵌的材料"</string>
+    <string name="embed_complete">"完成"</string>
+    <string name="embed_price">"镶嵌费用：#金币"</string>
+    <string name="embed_price_info">"花费元宝保留抠除的石头"</string>
+    <string name="embed_xiangqian_info">"石头镶嵌在不同部位的装备上，得到的效果不同"</string>
+    <string name="embed_dakong_info">"装备的当前等级决定了装备孔数的多少"</string>
+    <string name="embed_kouchu_confirm1">"花费#金币抠除该宝石,是否确定？"</string>
+    <string name="embed_kouchu_confirm2_selected">"花费#元宝保留抠除的宝石,是否确定？"</string>
+    <string name="embed_kouchu_confirm2">"花费#元宝抠除该宝石,是否确定？"</string>
+    <string name="embed_kouchu_confirm5_selected">"花费#绑定元宝保留抠除的宝石,是否确定？"</string>
+    <string name="embed_kouchu_confirm5">"花费#绑定元宝抠除该宝石,是否确定？"</string>
+    <string name="embed_xiangqian_confirm1">"花费#金币进行镶嵌,是否确定？"</string>
+    <string name="embed_xiangqian_confirm2">"花费#元宝进行镶嵌,是否确定？"</string>
+    <string name="embed_xiangqian_confirm5">"花费#绑定元宝进行镶嵌,是否确定？"</string>
+    <string name="embed_dakong_confirm1">"花费#金币进行打孔,是否确定？"</string>
+    <string name="embed_dakong_confirm2">"花费#元宝进行打孔,是否确定？"</string>
+    <string name="embed_dakong_confirm5">"花费#绑定元宝进行打孔,是否确定？"</string>
+    <string name="embed_bangDing_info">"使用绑定元宝后物品将变更为绑定属性"</string>
+    <string name="embed_success_info">"镶嵌成功！"</string>
+
+    <!-- 装备传承 -->
+    <string name="extend_equip_title">"传承"</string>
+    <string name="extend_price_info">"花费30元宝镶嵌所有属性"</string>
+    <string name="extend_info1">"传承时，传承装备的品阶决定传承后的最高品阶"</string>
+    <string name="extend_info2">"是否放入材料将会影响到强化后的属性变化"</string>
+    <string name="extend_materials_enough">"是否花费5000金币传承？"</string>
+    <string name="extend_materials_not_enough1">"材料不足，传承数值将会下降，是否花费5000金币传承？"</string>
+    <string name="extend_materials_not_enough2">"是否确认花费元宝收集材料，并花费5000金币传承？"</string>
+    <string name="extend_materials_continue">"继续"</string>
+    <string name="extend_materials_cancel">"取消"</string>
+    <string name="extend_success">"传承成功"</string>
+    <string name="extend_confirm_before_str">"原属性"</string>
+    <string name="extend_confirm_after_str">"传承后属性"</string>
+    <string name="extend_confirm_cost">"传承花费：5000金币"</string>
+    <string name="extend_confirm_yuanbao">"花费%s元宝直接集齐材料"</string>
+    <string name="extend_confirm_pinjie">"装备品阶"</string>
+    <string name="extend_select_hole_info1">"镶嵌宝石数量超过当前空数"</string>
+    <string name="extend_select_hole_info2">"需从以下宝石中选择【#】个进行保留"</string>
+
+    <!-- 在线奖励 -->
+    <string name="prize_online_title">"在线奖励"</string>
+    <string name="prize_online_get_info1">"领取奖励"</string>
+    <string name="prize_online_get_info2">"距离下次领取奖励还有"</string>
+    <string name="prize_online_today">"今日奖励"</string>
+    <string name="prize_online_tomorrow">"明日奖励"</string>
+    <string name="prize_online_day_info">"连续登录天数：#天"</string>
+    <string name="prize_online_minute_info">"今天累计在线时长：#分钟"</string>
+    <string name="prize_online_withoutReward">"今天的奖励已经领取完毕，明天再来吧."</string>
+    <string name="prize_onlnie_countTime">"领取剩余时间:"</string>
+
+    <!-- 在线奖励 -->
+    <string name="prize_offlinetime">"离线时间"</string>
+    <string name="prize_offlineReward">"获得离线经验"</string>
+
+    <!-- 寻宝 -->
+    <string name="lottery_treasuer">"寻宝"</string>
+
+    <!-- 宝石 -->
+    <string name="precious_stone">"宝石"</string>
+
+    <!-- 冲级奖励 -->
+    <string name="carryLevel_errorSignedInfo">"当前奖励信息异常,请重新上线后重试!"</string>
+    <string name="carryLevel_secondDay">"请第二天再来领取奖励!"</string>
+    <!-- wifi奖励 -->
+    <string name="wifireward_havetoConwifi">"请在wifi的环境下领取奖励!"</string>
+    <!-- 奥运答题 -->
+    <string name="quiz_ready_title">"中秋猜灯谜"</string>
+    <string name="quiz_ready_start">"开始猜灯谜"</string>
+    <string name="quiz_ready_info1">"规则介绍"</string>
+    <string name="quiz_ready_info2">"1、每个玩家每日可免费参与猜灯谜活动#次；"</string>
+    <string name="quiz_ready_info3">"2、每次答题时间有30秒，超时则默认猜谜失败；"</string>
+    <string name="quiz_ready_info4">"3、答题成功后可抽取一个免费奖励"</string>
+    <string name="quiz_ready_info5">"今日剩余#次机会"</string>
+    <string name="quiz_ready_info6">"灯谜："</string>
+    <string name="quiz_ready_info7">"剩余#秒"</string>
+    <string name="quiz_ready_info8">"点击选择奖励(剩余#秒)"</string>
+    <string name="quiz_next_question">"下一题"</string>
+    <string name="quiz_free">"免费"</string>
+
+    <!-- 奥运奖牌榜 -->
+    <string name="medal_list_title">"中秋祭月榜"</string>
+    <string name="medal_list_gold">"团圆月饼榜"</string>
+    <string name="medal_list_silver">"如意月饼榜"</string>
+    <string name="medal_list_copper">"吉祥月饼榜"</string>
+    <string name="medal_list_whole">"月饼榜"</string>
+    <string name="medal_list_num">"数量"</string>
+
+    <!-- 邮件系统 -->
+    <string name="mail_clickinputreciever">"点击输入收件人"</string>
+    <string name="mail_clickinputtitle">"点击输入标题"</string>
+    <string name="mail_clickinputcontent">"点击输入内容"</string>
+    <string name="mail_attachnotbinding">"绑定的物品无法通过邮件发送！"</string>
+    <string name="mail_title">"信件"</string>
+    <string name="mail_btn_write">"写件"</string>
+    <string name="mail_btn_delete">"删除信件"</string>
+    <string name="mail_btn_delete_mail">"删除"</string>
+    <string name="mail_btn_cancel">"取消"</string>
+    <string name="mail_btn_back">"回复"</string>
+    <string name="mail_btn_get">"提取"</string>
+    <string name="mail_btn_return">"退回"</string>
+    <string name="mail_fajianren">"发件人："</string>
+    <string name="mail_shoujianren">"收件人："</string>
+    <string name="mail_date">"日期："</string>
+    <string name="mail_biaoti">"标题："</string>
+    <string name="mail_content_info">"提取该附件需要支付以下金额"</string>
+    <string name="mail_edit_info">"设定提取附件需要的金额(即将开放)"</string>
+    <string name="mail_btn_select_firend">"选择好友"</string>
+    <string name="mail_btn_reset">"重置"</string>
+    <string name="mail_btn_send">"发送"</string>
+    <string name="mail_field_ji_e">"输入金额"</string>
+    <!-- <string name="mail_field_ti_qu">"输入提取金额"</string> -->
+    <string name="mail_field_ti_qu">"即将开放"</string>
+    <string name="mail_field_name">"输入昵称"</string>
+    <string name="mail_field_title">"输入主题"</string>
+    <string name="mail_no_title">"无主题"</string>
+    <string name="mail_field_content">"点击添加要发送的文字内容。"</string>
+    <string name="mail_firend_title">"好友列表"</string>
+    <string name="mail_send_success">"信件发送成功！"</string>
+    <string name="mail_cannot_send_for_self">"不能给自己写信！"</string>
+    <string name="mail_cannot_send_name_null">"收件人不能为空！"</string>
+    <string name="mail_list_null_str">"当前无信件，可通过写信给其他玩家发送离线信息以及物品交易。"</string>
+    <string name="mail_new_mail">"收到一封新邮件！"</string>
+    <string name="mail_new_mail_num">"有未读邮件！"</string>
+    <string name="mail_nomoney">"您的金钱不足，不能发送该邮件！"</string>
+    <string name="mail_without_reciever">"收件人不能为空"</string>
+
+    <!-- 结婚系统 -->
+    <string name="marry_request_title">"求婚申请"</string>
+    <string name="marry_condition_title">"求婚条件"</string>
+    <string name="marry_info_title">"求婚条件"</string>
+    <string name="marry_divorce_protocol_title">"协议离婚"</string>
+    <string name="marry_divorce_force_title">"强迫离婚"</string>
+
+    <!-- 清除PK值 -->
+    <string name="clear_pk_default">"请输入您所需要清除的PK值"</string>
+    <string name="pk_arrivecity">"您已进入城内，系统自动为您切换成和平模式！"</string>
+    <string name="pk_incity">"在和平区域内，禁止一切暴力倾向与活动！"</string>
+    <string name="pk_levellimit_font">"等级低于"</string>
+    <string name="pk_levellimit_back">"级无法更换PK模式！"</string>
+
+    <!-- 武状元 -->
+    <string name="pvp_title">"武状元"</string>
+    <string name="pvp_ready">"准备"</string>
+    <string name="pvp_cancel">"取消"</string>
+    <string name="pvp_title_left">"竞技名单"</string>
+    <string name="pvp_title_mid">"竞技公告"</string>
+    <string name="pvp_title_right">"今日排行"</string>
+    <string name="pvp_leave">"离开"</string>
+    <string name="pvp_info_0">"本周积分："</string>
+    <string name="pvp_info_1">"本周排名："</string>
+    <string name="pvp_info_2">"今日积分："</string>
+    <string name="pvp_info_3">"今日排名："</string>
+    <string name="pvp_remain_times">"今日剩余#次"</string>
+    <string name="pvp_week_title">"本周排行"</string>
+    <string name="pvp_history_title">"历史冠军"</string>
+    <string name="pvp_my_info">"我的本周排名（#）"</string>
+    <string name="pvp_history_week">"第#周"</string>
+    <string name="pvp_score">"积分"</string>
+    <string name="pvp_info_4">"未上榜"</string>
+
+    <!-- count window -->
+    <string name="count_title">"计算"</string>
+    <string name="count_cell">"个"</string>
+    <string name="count_sum">"合计："</string>
+
+    <!-- chat view string -->
+    <string name="default_msg"></string>
+    <string name="send">发送</string>
+    <string name="str_send">发言</string>
+    <string name="str_chat">聊天</string>
+    <string name="str_chat_trigger">点击进行聊天</string>
+    <string name="msg_type_i">我</string>
+    <string name="msg_type_world">世界</string>
+    <string name="msg_type_room">房间</string>
+    <string name="msg_type_system">系统</string>
+    <string name="msg_type_PM">私聊</string>
+    <string name="msg_type_all">全部</string>
+    <string name="msg_type_area">区域</string>
+    <string name="msg_type_region">区域</string>
+    <string name="msg_type_common">普通</string>
+    <string name="msg_type_team">队伍</string>
+    <string name="func_btn_expression">表情</string>
+    <string name="func_btn_quick_msg">快速发言</string>
+    <string name="func_btn_msg_history">发言记录</string>
+    <string name="func_btn_insert_item">插入物品</string>
+    <string name="func_btn_insert_coor">插入坐标</string>
+    <string name="func_btn_paste_name">粘贴名字</string>
+    <string name="msg_context">请输入聊天内容</string>
+    <string name="str_chat_fullScreen">全屏</string>
+    <string name="str_chat_M_Screen">小屏</string>
+    <string name="str_chat_pair">对</string>
+    <string name="str_chat_say">说：</string>
+    <string name="str_sayTomyself">"不能与自己私聊"</string>
+    <string name="str_world_notice">世界喊话功能，使所有玩家都将看到您发的这条消息，需消耗(#E30BEB1个千里传音)。</string>
+
+    <!-- yunva chat sdk -->
+    <string name="yunva_msg_type_world">综合</string>
+    <string name="yunva_msg_type_sys">系统</string>
+    <string name="yunva_msg_type_current">当前</string>
+    <string name="yunva_msg_type_chat">私聊</string>
+    <string name="yunva_msg_type_troop">军团</string>
+    <string name="yunva_msg_type_team">队伍</string>
+    <string name="yunva_worldLimitLevel">"20级以下玩家不能发送世界频道聊天消息"</string>
+    <string name="yunva_worldLimitTime">"发送世界频道消息太频繁"</string>
+    <string name="yunva_addTeam">"成功发送组队申请"</string>
+    <string name="yunva_searchPath">"开始自动寻路中…"</string>
+
+    <!-- update -->
+    <string name="update_togame">"进入游戏"</string>
+    <string name="update_get_res">"更新资源"</string>
+    <!-- login -->
+    <string name="login_fail">"登录失败，请重新登录！"</string>
+    <string name="login_fail_accounts">"账号不能为空，请重新输入！"</string>
+    <string name="login_fail_password">"密码不能为空，请重新输入！"</string>
+    <string name="login_accounts">"帐号"</string>
+    <string name="login_password">"密码"</string>
+    <string name="login_password_check1">"保存密码"</string>
+    <string name="login_password_check2">"密码"</string>
+    <string name="login_login">"登录"</string>
+    <string name="login_submit">"提交"</string>
+    <string name="login_menu_onein">"快速进入"</string>
+    <string name="login_menu_oneRegister">"本机号码登录"</string>
+    <string name="login_menu_autoLoginNotice">"不需要密码"</string>
+    <string name="login_menu_UserAgreement">"同意"</string>
+    <string name="login_menu_urlOfficial">"官方网站"</string>
+    <string name="login_menu_CMCC_MOREGAME">"更多游戏"</string>
+    <string name="login_menu_UserAgreement2">"服务协议"</string>
+    <string name="login_menu_UserAgreementNotice">"抱歉！您不同意服务协议，无法为您提供服务！"</string>
+    <string name="login_menu_register">"注册帐号"</string>
+    <string name="login_menu_servicepw">"修改密码"</string>
+    <string name="login_menu_yidong">"中国移动"</string>
+    <string name="login_menu_liantong">"中国联通"</string>
+    <string name="login_menu_dianxin">"中国电信"</string>
+    <string name="login_menu_dianxin_notice">"抱歉！您是中国电信用户，请上盛大官网进行密码修改！"</string>
+    <string name="login_menu_modify_notice">"新密码格式错误，请重新输入！"</string>
+    <string name="login_menu_modify_notice2">"两次密码输入不一致，请重新输入！"</string>
+    <string name="login_menu_money">"帐号充值"</string>
+    <string name="login_menu_about">"关于"</string>
+    <string name="login_menu_version">"版本号"</string>
+    <string name="login_menu_about_text">"代号SS"</string>
+    <string name="login_menu_about_text_XZKJ">"北京兴致科技有限公司代理发行"</string>
+    <string name="login_menu_about_text2">"官网:"</string>
+    <string name="login_menu_about_url">"http://hjm.sdo.com"</string>
+    <string name="login_menu_exit">"离开游戏"</string>
+    <string name="login_hint_accounts">"请输入帐号"</string>
+    <string name="login_hint_Security">"请输入密保"</string>
+    <string name="login_Security">"密保"</string>
+    <string name="login_A8">"挑战码"</string>
+    <string name="login_SecurityCard">"安全卡"</string>
+    <string name="login_hint_A8">"请输入动态密码"</string>
+    <string name="login_A8_notice">"请输入您的动态密码"</string>
+    <string name="login_SecurityCard_notice">"输入安全卡上的对应数字"</string>
+    <string name="login_hint_password">"请输入密码"</string>
+    <string name="login_hint_team">""</string>
+    <string name="login_loading">"正在为您注册，请稍候…"</string>
+    <string name="login_ACCOUNT_NULL">"您输入的用户名为空！请重试操作！"</string>
+    <string name="login_loadingError">"注册失败，请检查网络或SIM卡状态！"</string>
+    <string name="login_loading_login">"正在为您登录，请稍候…"</string>
+    <string name="login_Register">"注册账号"</string>
+    <string name="login_Modify">"修改密码"</string>
+    <string name="login_ACCOUNT_EXIST">"注册已存在！"</string>
+    <string name="login_RegisterAccounts">"注册账号:"</string>
+    <string name="login_RegisterPassword">"输入密码:"</string>
+    <string name="login_RegisterAccountsNotice">"由4-16位字母或数字组成，首位需为 字母，不区分大小写"</string>
+    <string name="login_RegisterPasswordNotice">"由6-10位字母或数字组成、不区分大 小写、不可与用户名相同"</string>
+    <string name="login_ModifyPW_old">"输入旧密码"</string>
+    <string name="login_ModifyPW_new">"输入新密码"</string>
+    <string name="login_ModifyPW_new2">"确认新密码"</string>
+    <string name="login_ModifyPW_Notice">"由6-10位字母或数字组成、不区分大小写"</string>
+    <string name="login_ModifyPW_Notice2">"仅限手机注册以及绑定手机用户修改密码,其他用户请登陆www.sdo.com进行修改(修改密码仅由运营商收取通讯费)"</string>
+    <string name="login_ModifyPW_Notice3">"密码修改申请以提交，请注意接收短信提示"</string>
+    <string name="login_ModifyPW_Notice4">"发送短信失败"</string>
+    <string name="login_ModifyPW_success">"密码修改成功"</string>
+    <string name="login_ModifyPW_loading">"正在为您修改密码，请稍候…"</string>
+    <string name="login_error">"输入错误，请重新输入"</string>
+    <string name="login_hint">""</string>
+    <!-- server select -->
+    <string name="server_section_title">"请选择游戏服务器"</string>
+    <string name="server_status_new">"新服"</string>
+    <string name="server_status_commend">"推荐"</string>
+    <string name="server_status_good">"良好"</string>
+    <string name="server_status_busy">"繁忙"</string>
+    <string name="server_status_full">"爆满"</string>
+    <string name="server_status_maintain">"维护"</string>
+    <string name="server_status_unopened">"即将开放"</string>
+    <string name="server_status_last">"上次登录："</string>
+    <string name="server_notice_maintain">"服务器维护中,请稍候再试。"</string>
+    <string name="server_notice_unopened">"即将开放，请关注游戏公告。"</string>
+    <string name="server_full">"目前服务器人数已满，请稍后再尝试登录"</string>
+    <string name="server_error">"当前登录已过期，请重新登录。"</string>
+
+    <!-- role select -->
+    <string name="role_select_create">"创建角色"</string>
+    <string name="role_autoNotice">"进入："</string>
+    <string name="role_autoNotice2">"随机昵称可通过王城南“户籍管理员”处免费修改"</string>
+    <string name="role_select_relogin">"重新登录"</string>
+    <string name="role_select_delete">"删除角色"</string>
+    <string name="role_select_togame">"进入游戏"</string>
+    <string name="role_info_name">"昵称："</string>
+    <string name="role_info_work">"职业："</string>
+    <string name="role_info_level">"等级："</string>
+    <string name="role_info_type">"类型："</string>
+    <string name="role_info_level_Eng">"LV："</string>
+    <string name="role_info_stackNum">"堆叠上限："</string>
+    <string name="role_info_notStack">"不可堆叠"</string>
+    <string name="role_create">"创建新角色"</string>
+    <string name="role_info_level_EN">"LV:"</string>
+    <string name="role_select_notice_unadd">"人数超出上限，不能再创建角色！"</string>
+    <string name="role_select_confirm_del">"将删除角色"</string>
+    <string name="role_select_confirm_del2">"所有数据，是否确认？"</string>
+    <string name="role_select_no_playerBase">"该账号没有任何角色，请创建新角色."</string>
+    <string name="role_select_skip_novice">"是否跳过剧情？"</string>
+    <string name="role_select_canInto">"预创建人物活动期间不能进入游戏!"</string>
+    <string name="role_select_canInto2">"预创建人物活动期间不能删除角色!"</string>
+
+    <!-- profession -->
+    <string name="profession_none_tongyong">"通用"</string>
+    <string name="profession_jianke">"剑客"</string>
+    <string name="profession_xiaoqi">"骁骑"</string>
+    <string name="profession_moushi">"谋士"</string>
+    <string name="profession_manling">"蛮灵"</string>
+    <string name="profession_non">"无职业"</string>
+    <string name="profession_info_jianshi">"优势就是血多、攻击高，在PK时不但能支持很久，而且他的高攻击有很大机会妙杀对手，但是这个职业有个不能忽视的缺点：只能近身攻击。"</string>
+    <string name="profession_info_fashi">"防御弱、血少、但攻击强大。可以使用大范围魔法对一定范围造成瞬间或持续伤害，极具杀伤力的远程攻击能快速粉碎对手，置对手于死地。然而极低的HP和负重，也是很致命的弱点。"</string>
+    <string name="profession_info_yisheng">"道士一直被认为是比较强大的职业，尤其是在单人PK时，血比法师多，又不像战士一样只能近身攻击，而且后期有宝宝帮助，更是如虎添翼。道士可以增加自己或他人的防御、魔防，可以加血，攻击时也可使用施毒术降低对手防御、生命等。但是道士的近身攻击力没有战士高，魔法值又比法师少很多，决定其攻击与防御稍显中规中矩。"</string>
+    <!-- role create -->
+    <string name="role_create_select">"重新选择"</string>
+    <string name="role_create_hint">"昵称最多六个字符"</string>
+    <string name="role_create_notice_null">"请输入昵称！"</string>
+    <string name="role_create_notice_nameerror">"人物昵称已存在或存在非法字符！请重新输入。"</string>
+    <!-- base button -->
+    <string name="button_back">"返回"</string>
+    <string name="button_ok">"确定"</string>
+    <string name="button_no">"取消"</string>
+    <string name="button_advance">"高级设置"</string>
+    <!-- ping -->
+    <string name="ping_timeout">"网络超时"</string>
+    <string name="ping_normal">"PING 值 = "</string>
+    <string name="ping_error">"网络断开!!!"</string>
+    <!-- room list -->
+    <string name="room_search">"查找房间"</string>
+    <string name="room_create">"创建房间"</string>
+    <string name="room_join_fast">"快速加入"</string>
+    <string name="room_join">"加入游戏"</string>
+    <string name="room_wait">"等待"</string>
+    <string name="room_running">"进行"</string>
+    <string name="room_room">"房间"</string>
+    <string name="room_state">"状态"</string>
+    <string name="room_creater">"创建者"</string>
+    <string name="room_count">"人数"</string>
+    <string name="room_mode">"模式"</string>
+    <string name="room_map">"地图"</string>
+    <string name="room_level">"等级"</string>
+    <string name="room_refresh">"刷新"</string>
+    <string name="room_leave">"离开"</string>
+    <string name="room_list">"房间列表"</string>
+    <!-- room creat -->
+    <string name="room_create_room">"房间名称"</string>
+    <string name="room_create_mode">"游戏模式"</string>
+    <string name="room_create_persons">"游戏人数"</string>
+    <string name="room_create_map">"游戏地图"</string>
+    <string name="room_create_level">"等级设置"</string>
+    <string name="room_create_price">"额外酬劳"</string>
+    <string name="room_create_password">"房间密码"</string>
+    <string name="room_create_item">"使用道具"</string>
+    <string name="room_create_hp">"显示血量 "</string>
+    <string name="room_create_equip">"外套装备"</string>
+    <string name="room_create_input_room">"名称最多七个字"</string>
+    <string name="room_create_input_mode">"选择模式"</string>
+    <string name="room_create_input_persons">"选择人数"</string>
+    <string name="room_create_input_map">"选择地图"</string>
+    <string name="room_create_input_price">"选择酬劳"</string>
+    <string name="room_create_input_password">"请输入房间密码"</string>
+    <string name="room_create_input_level">"请输入等级"</string>
+    <string name="room_create_notice_levelupper">等级上限不能超过玩家等级10级！</string>
+    <string name="room_create_notice_levellower">等级下限不能低于10级！</string>
+
+    <!-- room wait -->
+    <string name="room_wait_title">"等待房间"</string>
+    <string name="room_wait_fast_chat">"快捷语"</string>
+    <string name="room_wait_chat">"发言"</string>
+    <string name="room_wait_input">"点击输入文字信息"</string>
+    <string name="room_wait_input_search_friend">"点击搜索玩家"</string>
+    <string name="room_wait_button_ready">"准备"</string>
+    <string name="room_wait_button_unready">"取消准备"</string>
+    <string name="room_wait_button_game">"开始游戏"</string>
+    <string name="room_wait_button_set">"设置"</string>
+    <string name="room_wait_button_leave">"离开"</string>
+    <string name="room_wait_room_id">"房间号："</string>
+    <string name="room_wait_item">"道具："</string>
+    <string name="room_wait_use">"可用"</string>
+    <string name="room_wait_unuse">"不可用"</string>
+    <string name="room_wait_won">"胜利条件："</string>
+    <string name="room_wait_menu_kick">"踢人"</string>
+    <string name="room_wait_menu_friend">"加为好友"</string>
+    <string name="room_wait_menu_look">"查看装备"</string>
+    <string name="room_wait_master">"房主"</string>
+    <!-- battle result -->
+    <string name="battle_list_name">"昵称"</string>
+    <string name="battle_list_profession">"职业"</string>
+    <string name="battle_list_level">"等级"</string>
+    <string name="battle_list_won">"胜利"</string>
+    <string name="battle_list_kill">"击杀"</string>
+    <string name="battle_list_die">"死亡"</string>
+    <string name="battle_list_surport">"支援"</string>
+    <string name="battle_list_reward">"奖励"</string>
+    <string name="battle_list_exploit">"功勋金币"</string>
+    <string name="battle_list_points">"总分数"</string>
+    <string name="battle_button_backroom">"返回房间"</string>
+    <string name="battle_button_backcity">"返回主城"</string>
+    <string name="battle_button_mybattle">"综合战绩"</string>
+    <string name="battle_ontime_red">"红队"</string>
+    <string name="battle_ontime_blue">"蓝队"</string>
+    <string name="battle_ontime_kill">"击杀"</string>
+    <string name="battle_result_title">"比赛结果"</string>
+
+    <!-- top list -->
+    <string name="toplist_name">"英雄谱"</string>
+    <string name="toplist_notice_update">"所有英雄谱每天凌晨更新"</string>
+    <string name="toplist_notice_out">"（你目前不在该英雄谱榜单中）"</string>
+    <string name="toplist_button_update">"更新"</string>
+    <string name="toplist_button_ignuo">"忽略"</string>
+    <string name="toplist_button_more">"更多"</string>
+    <string name="toplist_page_exploit">"功勋"</string>
+    <string name="toplist_page_sports">"竞技"</string>
+    <string name="toplist_page_level">"等级"</string>
+    <string name="toplist_page_money">"财富"</string>
+    <string name="toplist_page_multiple">"综合"</string>
+    <string name="toplist_content_exploit">"功勋数"</string>
+    <string name="toplist_content_kills">"击败人数"</string>
+    <string name="toplist_content_money">"金币数"</string>
+
+    <!-- TASK -->
+    <string name="battle_button_backlist">"返回列表"</string>
+    <string name="task_title">"任务"</string>
+    <string name="task_bounty">"获取奖励"</string>
+    <string name="task_giveup">"放弃任务"</string>
+    <string name="task_title_RedName">"你这个杀人犯跑到我这里来干什么？我是不会帮助你的！"</string>
+    <string name="task_new">"新任务"</string>
+    <string name="task_round1">"第 "</string>
+    <string name="task_round2">" 轮"</string>
+    <string name="task_times">" 次"</string>
+    <string name="task_desc">"每日最多可进行10轮任务，前2轮可获得4倍奖励"</string>
+    <string name="task_require_item">"该任务需要收集以下物品"</string>
+    <string name="task_require_monster">"该任务需要击败以下怪物"</string>
+    <string name="task_require_npc">"该任务需要找到相关NPC"</string>
+    <string name="task_require_map">"该任务需要进入相关地图"</string>
+    <string name="task_npc_name">"NPC名称"</string>
+    <string name="task_map_name">"地图名称"</string>
+    <string name="task_map_type">"地图类型"</string>
+    <string name="task_map_type_1">"PVP"</string>
+    <string name="task_map_type_2">"PVE"</string>
+    <string name="task_map_type_3">"城市"</string>
+    <string name="task_npc_map">"地图"</string>
+    <string name="task_npc_position">"坐标"</string>
+    <string name="task_finish">"已完成"</string>
+    <string name="task_unfinish">"未完成"</string>
+    <string name="task_notice">"任务提示"</string>
+    <string name="task_notice_exchange">"兑换成功！"</string>
+    <string name="task_notice_unfinish">"任务未完成，不能获取奖励。"</string>
+    <string name="task_conform_giveup">"放弃后将会进入新一轮任务，每日只有三轮任务，确定放弃吗？"</string>
+    <string name="task_percent">"任务进度："</string>
+    <string name="task_percent_npc1">" 条件已完成"</string>
+    <string name="task_percent_exchange">"收集物品："</string>
+    <string name="task_monster_unit">" 个"</string>
+    <string name="task_track">"任务跟踪"</string>
+    <string name="task_track_check">"开启任务跟踪"</string>
+    <string name="task_none">"今日暂无新任务"</string>
+
+    <!-- MISSION -->
+    <string name="mission_percent">"任务进度"</string>
+    <string name="mission_detail">"任务详情"</string>
+    <string name="mission_accept">"已接任务"</string>
+    <string name="task_hortation">"任务奖励"</string>
+    <string name="task_money">"金币"</string>
+    <string name="task_exp">"经验"</string>
+    <string name="mission_title">"任务"</string>
+    <string name="mission_finish">"已完成"</string>
+    <string name="mission_finish2">"可交付"</string>
+    <string name="mission_status_0">"未完成"</string>
+    <string name="mission_status_2">"可接受"</string>
+    <string name="mission_status_1">"领取奖励"</string>
+    <string name="mission_achieve">"《%s》任务可交付，快去领取奖励吧。"</string>
+    <string name="mission_nomission">"当前无成就任务"</string>
+
+    <!-- sale to npc -->
+    <string name="sale_notice_full">"NPC背包已满！"</string>
+
+    <!-- sound -->
+    <string name="sound_content">"是否开启游戏音乐音效?"</string>
+    <string name="yes">"是"</string>
+    <string name="no">"否"</string>
+    <string name="music">"音乐"</string>
+    <string name="sound">"音效"</string>
+    <string name="open">"打开"</string>
+    <string name="close">"关闭"</string>
+    <string name="cancel">"取消"</string>
+    <string name="low">"低"</string>
+    <string name="high">"高"</string>
+    <string name="ok">"确认"</string>
+    <string name="FullInput">"全屏输入法"</string>
+    <string name="position">"坐标"</string>
+    <string name="to">"对"</string>
+    <string name="talkto">"说："</string>
+    <string name="chat_press">"点击进行聊天"</string>
+    <string name="outof_gold">"超出您携带金币数量！"</string>
+    <string name="outof_yuanbaogold">"超出您携带元宝数量！"</string>
+    <!-- <string name="gold">"金币"</string> -->
+    <string name="gold">"铜钱"</string>
+    <string name="yuanbao">"元宝"</string>
+    <string name="bindgold">"绑定金币"</string>
+    <string name="goldingot">"元宝"</string>
+    <string name="bindgoldingot">"绑定元宝"</string>
+    <string name="get">"获得"</string>
+    <string name="lost">"失去"</string>
+    <string name="bind">"绑定"</string>
+    <string name="guide_unnotice">"今后不再提示所有引导信息"</string>
+    <string name="guide_close">"点击关闭"</string>
+    <string name="guide_skill">"选择施放位置"</string>
+    <string name="notice_relogin">"由于网络问题，与服务器的连接已断开。请重新登录！"</string>
+    <string name="guide_loot_desc">"战斗损坏了你的装备快{#fff000拾取}地上的{#fff000衣服}和{#fff000武器}吧！{br}{br}（{#fff000拾取}操作：{#fff000点击眼睛}可查看物品名字，{#fff000点击物品}自动拾取）"</string>
+    <string name="guide_equip_desc">"左边是装备栏，右边是背包{br}{br}({#fff000装配}操作：{#fff000双击装备}即可自动装配，拖动装备也可以)"</string>
+    <string name="guide_incity_desc">"现在你可以进入最伟大的{#fff000王城}了！哦，城市是安全区域，玩家之间是不能竞技PK的。{br}{br}（{#fff000传送}操作：{#fff000进入}光圈位置，角色将自动移动）"</string>
+    <string name="guide_welcome">"欢迎"</string>
+    <string name="skill_noprop">"无技能道具"</string>
+    <string name="skill">"技能"</string>
+    <string name="info">"信息"</string>
+    <string name="error">"错误"</string>
+    <string name="gender_male">"男"</string>
+    <string name="gender_female">"女"</string>
+    <string name="notice_ingame_outline">"离线"</string>
+    <string name="notice_ingame_relogin">"重新登录"</string>
+
+    <!-- pve 提示框 -->
+    <string name="pve_cancel">"取消组队"</string>
+    <string name="pve_notice_math">系统正在为您组队匹配，请稍后！{br}组队成功后该提示框将自动消失。</string>
+    <string name="pve_notice_false">{#FF0000对不起，没有找到匹配的房间!}{br}请稍后重试或者创建房间。</string>
+
+    <!-- pvp 提示框 -->
+    <string name="pvp_room_full">"您所进入的房间已满！"</string>
+    <string name="pvp_team_full">"队伍已满"</string>
+    <string name="team_no_enough">"不符合开始游戏条件，请继续等待！"</string>
+    <string name="pvp_ready_unchange">"您已经准备好，不能更换位置!"</string>
+    <string name="pvp_room_startting">"您所进入的房间已开始！"</string>
+    <string name="pvp_room">"房间"</string>
+
+    <!-- 数字显示窗口 -->
+    <string name="numberSelect_ok">"确定"</string>
+
+    <!-- update状态 提示框 -->
+    <string name="update_connecting">"正在连接服务器…"</string>
+    <string name="update_noconnection">"服务器人数爆满，无法进入游戏，请稍后再试！"</string>
+    <string name="update_no_network">"当前无可用网络连接，不能进入游戏"</string>
+    <string name="update_noserver">"无法连接服务器，请检查设备网络连接设置是否正常。"</string>
+    <string name="update_noserver2">"网络连接失败，不支持中国移动CMwap和中国联通3Gwap接入游戏"</string>
+    <string name="double_use">"双击可使用"</string>
+    <string name="input_new_name">"请输入新角色名"</string>
+    <string name="npc_publicvoice">"江湖公告"</string>
+    <string name="npc_toplist">"排行榜"</string>
+    <string name="npc_ExchangeTask">"任务管理员"</string>
+    <string name="npc_teacher">"老师"</string>
+
+    <!-- 更新 提示 -->
+    <string name="update_check">"正在检查更新，请稍候"</string>
+    <string name="update_APK_notice1">"检测到新的游戏版本，（约XX)是否更新？"</string>
+    <string name="update_RES_notice1">"检测到新的游戏资源，（约XX)是否更新？"</string>
+    <string name="update_videoRES_notice1">"当前客户端不包括视频，（约10M)是否需要下载？"</string>
+    <string name="update_soundRES_notice1">"当前客户端不包括音乐、音效，（约10M)是否需要下载？"</string>
+    <string name="update_APK_notice2">"（不更新则无法进行游戏，当前联网网络非WLAN，是否更新？）"</string>
+    <string name="update_download_app">"更新程序包…"</string>
+    <string name="update_download_app_error">"更新出错，建议更换网络重试或者稍候重新下载。"</string>
+    <string name="update_download_res_error">"更新出错，建议更换网络重试或者稍候重新下载。"</string>
+    <string name="update_login_server_error">"服务器正在维护，请稍候再试。"</string>
+    <string name="update_download_res">"下载资源…"</string>
+    <string name="update_nospace1">"SD卡存储空间不足，需要"</string>
+    <string name="update_nospace2">"M空间，请整理。"</string>
+    <string name="update_first">"（不消耗流量）第一次运行，优化资源…"</string>
+    <string name="update_COPY_LPK">"正在拷贝资源"</string>
+    <string name="update_UNZIP">"正在解压资源"</string>
+    <string name="update_sdcard_error">"SD卡当前不可用，请确认是否插入SD卡，或SD卡是否处于可写状态。"</string>
+    <string name="update_low_memory">"该机型由于内存原因，不能运行游戏，请见谅。"</string>
+    <string name="update_low_Resolution">"您的手机分辨率较低，游戏体验会降低或无法进行游戏，是否继续游戏？"</string>
+    <!-- 礼品箱 -->
+    <string name="gift_get">"提取"</string>
+    <string name="doff">"丢弃"</string>
+    <string name="doff_incity">"城市地图内无法丢弃物品或金币"</string>
+    <string name="exit_game_time">"秒后离开游戏"</string>
+    <!-- 地图 -->
+    <string name="pathfinding">"点击寻路"</string>
+    <string name="map_curnotperform">"当前地图无法打开！"</string>
+    <string name="Nopathfinding">"不可寻路"</string>
+    <string name="Nopathfinding2">"洞穴地图不可寻路"</string>
+    <string name="mapChannl">"线"</string>
+    <string name="Teleporter">"传送点"</string>
+    <string name="NPCList">"NPC列表"</string>
+    <string name="mapList">"地图列表"</string>
+    <string name="mapList_hasTeam">"抱歉！组队状态下不能进行线路切换！"</string>
+    <string name="mapList_oneChannel">"抱歉！该地图不能进行切换！！"</string>
+    <string name="worldMap">"世界传送"</string>
+    <string name="changeMap">"切换线路"</string>
+    <string name="checkMiniMap">"开启迷你地图"</string>
+    <string name="autoPathing">"自动寻路"</string>
+    <string name="PathingError">"该区域不可到达"</string>
+    <string name="autoPathing2">"点击NPC名称自动寻路"</string>
+    <string name="worldMapGo">"点击地图名称快速到达"</string>
+    <string name="changeMapNotice">"点击切换线路"</string>
+    <string name="pathingNotice">"正在为你寻路，点击取消寻路"</string>
+    <string name="WorldMapNotice">"点击名称查看地图详情"</string>
+    <string name="portal">"立即传送"</string>
+    <string name="empty">""</string>
+    <string name="currentChanle">"当前线路 :"</string>
+    <string name="mapDesc">"地图介绍"</string>
+    <string name="mapTransmit">"地图传送"</string>
+    <!-- 健康公告 -->
+    <string name="public_notice_title">"健康游戏公告"</string>
+    <string name="public_notice_1">"抵制不良游戏    拒绝盗版游戏"</string>
+    <string name="public_notice_2">"注意自我保护    谨防受骗上当"</string>
+    <string name="public_notice_3">"适度游戏益脑     沉迷游戏伤身"</string>
+    <string name="public_notice_4">"合理安排时间     享受健康生活"</string>
+    <string name="public_notice_11">"抵制不良游戏    拒绝盗版游戏    注意自我保护    谨防受骗上当"</string>
+    <string name="public_notice_22">"适度游戏益脑    沉迷游戏伤身    合理安排时间    享受健康生活"</string>
+    <string name="show_item_name">"显示掉落物品名称"</string>
+    <string name="hide_item_name">"隐藏掉落物品名称"</string>
+    <string name="gold_less">"金币不足"</string>
+    <string name="money_less">"余额不足"</string>
+    <string name="exp_less">"经验值不足"</string>
+    <string name="skill_only">"无法与其他技能一起使用"</string>
+    <string name="time_unit">"分钟"</string>
+    <string name="rename_notice">"昵称不能为空"</string>
+    <string name="pause_notice">"请先关闭该界面再进行该操作"</string>
+    <string name="system_notice">"提示框"</string>
+    <string name="system_confirm">"确认框"</string>
+    <string name="notice_connection">"无法与服务器建立连接！请退出游戏，检查网络连接后再进行游戏。"</string>
+    <string name="levelup">"技能升级 "</string>
+    <string name="setup">技能装配 "</string>
+    <string name="one">一 "</string>
+    <string name="two">二"</string>
+    <string name="intro">"介绍 "</string>
+    <string name="quickCool">"加速冷却"</string>
+    <string name="cool_time">"冷却时间 "</string>
+    <string name="attribute_des">"属性说明 "</string>
+    <string name="skill_need_level">"要求角色 :"</string>
+    <string name="skill_need_gold">"升级金币: "</string>
+    <string name="skill_suffice_skill">"前置技能 :#级"</string>
+    <string name="skill_suffice_condition">"（条件满足） "</string>
+    <string name="skill_not_suffice_condition">"（不符合条件） "</string>
+    <string name="skill_cur">"技能#级 "</string>
+    <string name="skill_next">"技能#级（下一级） "</string>
+    <string name="skill_confirm">"您确定花费1元宝把等待时间设置为0吗？ "</string>
+    <string name="skill_level_max">"满级 "</string>
+
+    <!-- 技能 -->
+    <string name="skill_levelNotMeet">"等级不足"</string>
+    <string name="skill_moneyNotMeet">"金钱不足"</string>
+    <string name="skill_materialNotMeet">"材料不足，你可以通过下列方式获取材料"</string>
+
+    <!-- 成长基金 -->
+    <string name="growth_notenough">"元宝不足,是否前往充值998元宝?"</string>
+    <string name="growth_thinking">"考虑考虑"</string>
+    <string name="growth_go">"立即前往"</string>
+    <string name="growth_alreadyJoin">"您已参与成长基金，不能重复购买！"</string>
+    <string name="growth_buy">"确定使用998元宝购买成长基金?"</string>
+    <!-- 组队 -->
+    <string name="team">"组  队"</string> <!-- 左侧组队栏显示 -->
+    <string name="TeamExit">"退出队伍 "</string>
+    <string name="TeamDismiss">"解散队伍 "</string>
+    <string name="TeamName">"队伍名称 "</string>
+    <string name="TeamTitleMyTeam">"我的队伍 "</string>
+    <string name="TeamTitleOtherTeam">"周围队伍 "</string>
+    <string name="TeamTitleOtherPlayer">"周围玩家 "</string>
+    <string name="TeamCheckShorthanded">"队伍缺人 "</string>
+    <string name="TeamCheckThink">"想组队 "</string>
+    <string name="TeamCheckReject">"拒绝组队 "</string>
+    <string name="TeamTitle">"队伍 "</string>
+    <string name="TeamLeader">"队长 "</string>
+    <string name="TeamMember">"队友 "</string>
+    <string name="TeamLvl">"等级"</string>
+    <string name="TeamState0">"一缺三"</string>
+    <string name="TeamState1">"二缺二"</string>
+    <string name="TeamState2">"三缺一"</string>
+    <string name="TeamState3">"满员"</string>
+    <string name="TeamPlayerName">"名字"</string>
+    <string name="TeamRandom">"随机组队 "</string>
+    <string name="TeamRemove">"踢出队伍 "</string>
+    <string name="changeLeader">"队长移交 "</string>
+    <string name="TeamApply">"申请加入 "</string>
+    <string name="TeamInvite">"邀请组队 "</string>
+    <string name="leaderName">"的队伍"</string>
+    <string name="TeamNoticeHasTeam">"您已经有组队，无法申请！"</string>
+    <string name="TeamNotLeader">"您不是队长，无法邀请！"</string>
+    <string name="TeamShorthandedNotic1">"组队设置变更为接受组队邀请"</string>
+    <string name="TeamShorthandedNotic2">"组队设置变更为拒绝组队邀请"</string>
+    <string name="TeamShorthandedNotic3">"队伍设置变更为接受他人申请组队"</string>
+    <string name="TeamShorthandedNotic4">"队伍设置变更为拒绝他人申请组队"</string>
+    <string name="TeamNoSelectNotice">"请选择一个对象！"</string>
+    <string name="TeamRandomNotice">"当前没有加入队伍，可选择随机组队；或者选择周围队伍、周围玩家，申请加入。 "</string>
+    <string name="TeamNOteamNotice">"当前没有可以加入的其他队伍！ "</string>
+    <string name="TeamNoplayerNotice">"当前没有想组队的玩家！ "</string>
+    <string name="TeamIsOwn">"不能对自己进行操作！ "</string>
+
+    <!-- PK -->
+    <string name="pk_heping">"和平 "</string>
+    <string name="pk_sharu">"杀戮 "</string>
+    <string name="pk_hanghui">"行会"</string>
+    <string name="pk_zudui">"组队 "</string>
+    <string name="pk_safeArea">"安全区 "</string>
+    <string name="pk_PKArea">"PK"</string>
+    <string name="pk_start">"您开启了杀戮模式 "</string>
+    <string name="pk_personal">"您开启了个人模式"</string>
+    <string name="pk_contest">"您开启了阵营模式 "</string>
+    <string name="pk_friendly">"您开启了友好模式,可以对非军团和非队友玩家进行攻击"</string>
+    <string name="pk_team">"您开启了组队PK模式 "</string>
+    <string name="pk_guild">"您开启了行会PK模式 "</string>
+    <string name="pk_end">"您开启了和平模式 "</string>
+    <string name="pk_quit_info">"PK状态下无法离开游戏，请继续战斗 "</string>
+    <string name="pk_attacked">"你当前受到了玩家%s的攻击"</string>
+    <string name="pk_city_tip">"城市内"</string>
+    <string name="pk_level_tip">"等级小于"</string>
+    <string name="pk_cant_open">"无法开启杀戮模式"</string>
+    <string name="pk_info_heping">"攻击不会对其他玩家造成伤害"</string>
+    <string name="pk_info_youhao">"攻击可对队友和军团以外的玩家造成伤害"</string>
+    <string name="pk_info_shalu">"攻击可对所有玩家造成伤害"</string>
+    <string name="pk_info_personal">"只会攻击当前选中目标，建立关系的目标"</string>
+    <string name="pk_attacker_new">"等你混过25级再来闯荡江湖"</string>
+    <string name="pk_defender_new">"对方还处于新手保护等级，不能被攻击"</string>
+    <!-- <string name="pk_select_defender">"请选择攻击目标"</string> -->
+    <string name="pk_peace_not_attack">"当前是和平模式，不能发起攻击"</string>
+    <string name="pk_same_guild">"来自同一个军团，相奸何太急"</string>
+    <string name="pk_same_member">"目前是队友关系，相奸何太急"</string>
+    <string name="pk_safeZone">"当前处于安全区域"</string>
+    <string name="pk_in_duplicate">"副本内无法切换PK状态"</string>
+    <string name="pk_in_legion_manor">"争夺战内无法切换PK状态"</string>
+    <string name="pk_trapped">"定身状态中，无法移动"</string>
+    <string name="pk_vertigo">"眩晕状态中，无法操作"</string>
+
+    <!-- 编织 -->
+    <string name="weave_title">"编织"</string>
+    <string name="weave_put_wing">"放入翅膀"</string>
+    <string name="weave_put_materials">"放入材料"</string>
+    <string name="weave_refresh">"随机召唤"</string>
+    <string name="weave_refresh_max">"召唤嫦娥"</string>
+    <string name="weave_refresh_tip">"我只编织一次"</string>
+    <string name="weave_cost">"编织花费  X"</string>
+    <string name="weave_confirm">"确认"</string>
+    <string name="weave_tip">"只能放入翅膀和羽毛"</string>
+    <string name="weave_tip1">"请放入翅膀和羽毛"</string>
+    <string name="weave_no_feather">"你的翅膀还没有任何属性，快去寻找神奇翎羽提高它吧。听说从boss身上可以获得，也可以去找羽翼使者问问。"</string>
+
+    <!-- 市场活动 [小游戏] -->
+    <!-- 市场活动 [小游戏] -->
+    <string name="activity_title1">"幸运转盘"</string>
+    <string name="activity_title2">"祈福"</string>
+    <string name="activity_title3">"上上签"</string>
+    <string name="activity_title4">"摇钱树"</string>
+    <string name="activity_title5">"八鼎"</string>
+    <string name="activity_title6">"大话骰"</string>
+    <string name="activity_description1">"各位大侠只要每天登录即可获得一次免费转盘机会。登录天数越多，机会越多，奖品越好。"</string>
+    <string name="activity_description2">"祈福可祈求神明降福，既可独善其身也可兼济天下。可加速练功收益，达到事倍功半之效。各位侠士不妨一试。"</string>
+    <string name="activity_description3">"相传白云道观列位道长得道成仙后专为善男信女预测吉凶祸福。传闻十分 精准。结果即可顺应天意亦可趋吉避凶进行改签。"</string>
+    <string name="activity_description4">"相传此树乃天神仙树，天地生成的灵根。散落钱币时可谓天降奇观。因 此一直被众人垂涎，若侠士想多得钱财，还需早早下手为妙。"</string>
+    <string name="activity_description5">"八鼎源于神仙方术，是在丹炉中烧炼“丹胚”以制造“仙丹”。服用后以 粹炼精气，练功收益加倍。相传还可习炼 “点丹成金”之术。"</string>
+    <string name="activity_description6">"中州酒馆每日福利，若大侠鸿运当头，手气极好，同时摇中三个六、四个六、五个六时，将会有大量经验赠送，以示鼓励。"</string>
+    <string name="activity_open">"开启"</string>
+    <string name="activity_open_tomorrow">"明日开启"</string>
+    <string name="activity_no_open">"级开启"</string>
+    <string name="activity_tip">"今日剩余X次机会"</string>
+    <string name="activity_tip_free">"今日剩余X次免费机会"</string>
+    <string name="activity_tip_shangshangqian">"可改签"</string>
+    <string name="activity_tip_pray">"今日已祈福"</string>
+
+    <!-- 市场活动-祈福 -->
+    <string name="activity_pray_countdown">"双倍倒计时"</string>
+    <string name="activity_pray_get">"祈福"</string>
+    <string name="activity_pray_done">"祈福成功"</string>
+    <string name="guild_pray_notime">"今日祈福次数已用完!"</string>
+    <string name="guild_pray_name">"军团祈福"</string>
+    <string name="guild_pray_leftNum">"剩余祈福次数："</string>
+    <string name="guild_pray_press">"点击祈福"</string>
+    <string name="guild_pray_consume">"消耗："</string>
+
+    <!-- 大话骰 -->
+    <string name="dahuashai_game_title">"大话骰"</string>
+    <string name="dahuashai_game_notime">"今日次数已用完!"</string>
+    <string name="dahuashai_game_result">"您获得"</string>
+    <string name="dahuashai_game_free">"免费次数"</string>
+    <string name="dahuashai_game_total">"总共次数"</string>
+    <string name="dahuashai_game_result2">"经验值"</string>
+    <string name="dahuashai_game_notice">"请选择骰子数量"</string>
+    <string name="dahuashai_game_notice_no_select">"您还没选择骰子数！"</string>
+    <string name="dahuashai_game_num1">"免费"</string>
+    <string name="dahuashai_game_num2">"2元宝"</string>
+    <string name="dahuashai_game_num3">"3元宝"</string>
+    <string name="dahuashai_game_num4">"4元宝"</string>
+    <string name="dahuashai_game_num5">"5元宝"</string>
+
+    <!-- 摇钱树 -->
+    <string name="yaoqianshu_game_start">"摇钱"</string>
+    <string name="yaoqianshu_game_total">"摇钱树总金额"</string>
+    <string name="yaoqianshu_game_notice">"累计获得"</string>
+    <string name="yaoqianshu_game_surplus">"今日剩余"</string>
+    <string name="yaoqianshu_game_surplus2">"次"</string>
+
+    <!-- 上上签 -->
+    <string name="shangshangqian_game_notice">"摇晃签筒，直至签出现"</string>
+    <string name="shangshangqian_game_lot">"抽签"</string>
+    <string name="shangshangqian_game_gaiqian">"改签"</string>
+
+    <!-- 市场活动-八鼎 -->
+    <string name="activity_alchemy_title">"炼丹"</string>
+    <string name="activity_alchemy_embryo">"丹胚"</string>
+    <string name="activity_alchemy_get_embryo">"后凝成丹胚"</string>
+    <string name="activity_alchemy_buy">"购买"</string>
+    <string name="activity_alchemy_select">"选择丹药类型"</string>
+    <string name="activity_alchemy_exp_dan">"经验丹"</string>
+    <string name="activity_alchemy_gold_dan">"金币丹"</string>
+    <string name="activity_alchemy_exp">"经验"</string>
+    <string name="activity_alchemy_gold">"金币"</string>
+    <string name="activity_alchemy_refresh">"刷新"</string>
+    <string name="activity_alchemy_max_star">"满星"</string>
+    <string name="activity_alchemy_ok">"炼丹"</string>
+    <string name="activity_alchemy_get">"收获"</string>
+    <string name="activity_alchemy_tip0">"正在获取炼丹信息"</string>
+    <string name="activity_alchemy_tip1">"可炼丹"</string>
+    <string name="activity_alchemy_tip2">"可收获"</string>
+    <string name="activity_alchemy_open_tip">"X级开放"</string>
+
+    <!-- 行会 -->
+    <string name="guild_title">"行会"</string>
+    <string name="guild_rank">"排行"</string>
+    <string name="guild_name">"行会名称"</string>
+    <string name="guild_president">"会长"</string>
+    <string name="guild_vice_president">"副会长"</string>
+    <string name="guild_level">"等级"</string>
+    <string name="guild_num">"人数"</string>
+    <string name="guild_apply">"申请"</string>
+    <string name="guild_has_apply">"已申请"</string>
+    <string name="guild_apply_prompt">"你现在可以申请加入一个行会"</string>
+    <string name="guild_apply_search">"搜索行会名称"</string>
+    <string name="guild_apply_search_prompt">"请输入行会名称"</string>
+    <string name="guild_apply_success">"申请成功，请等待审核。"</string>
+    <string name="guild_level_lack">"角色达到20级时开放行会系统"</string>
+    <string name="guild_join_tip">"您已加入行会："</string>
+    <string name="guild_apply_limit">"已申请，再次申请需间隔3分钟"</string>
+    <string name="guild_subtitle_allguild">"全部行会"</string>
+    <string name="guild_subtitle_myguild">"我的行会"</string>
+    <string name="guild_subtitle_member">"成员列表"</string>
+    <string name="guild_subtitle_history">"成员日志"</string>
+    <string name="guild_subtitle_welfare">"行会祈福"</string>
+    <string name="guild_subtitle_prop">"行会道具"</string>
+    <string name="guild_name1">"行会名称："</string>
+    <string name="guild_rank1">"行会排行："</string>
+    <string name="guild_president1">"行会会长："</string>
+    <string name="guild_num1">"行会人数："</string>
+    <string name="guild_money">"行会财富："</string>
+    <string name="guild_donate">"捐献"</string>
+    <string name="guild_exit">"退出"</string>
+    <string name="guild_dismiss">"解散"</string>
+    <string name="guild_verify">"审核"</string>
+    <string name="guild_current_level">"当前行会级别："</string>
+    <string name="guild_levelup_prompt">"距离行会升级到X级还需"</string>
+    <string name="guild_contribution">行会总贡献值：</string>
+    <string name="guild_exploit">行会总战功：</string>
+    <string name="guild_levelup">"升级"</string>
+    <string name="guild_speedup">"加速"</string>
+    <string name="guild_notice">"行会公告"</string>
+    <string name="guild_modify">"修改"</string>
+    <string name="guild_modify_tip">"修改行会公告"</string>
+    <string name="guild_speedup_tip">"您确定花费X元宝把等待时间设为0吗？"</string>
+    <string name="guild_donate_hint">"输入数量"</string>
+    <string name="guild_donate_tip_msg">"请输入数字！"</string>
+    <string name="guild_donate_contribution">"贡献值"</string>
+    <string name="guild_donate_tip">"贡献值=捐献元宝数量"</string>
+    <string name="guild_dismiss_tip">"确认解散行会"</string>
+    <string name="guild_exit_tip">"确认退出行会"</string>
+    <string name="guild_verify_people">"申请人"</string>
+    <string name="guild_verify_rank">"排名"</string>
+    <string name="guild_verify_profession">"职业"</string>
+    <string name="guild_verify_ignore">"忽略所有申请"</string>
+    <string name="guild_verify_agree">"同意"</string>
+    <string name="guild_verify_refuse">"拒绝"</string>
+    <string name="guild_verify_done">"已处理"</string>
+    <string name="guild_levelup_title">"行会升级"</string>
+    <string name="guild_levelup_subtitle">"升级X级行会可享受以下福利："</string>
+    <string name="guild_levelup_info1">"升级需扣除行会财富："</string>
+    <string name="guild_levelup_info2">"升级需要贡献值："</string>
+    <string name="guild_levelup_info3">"升级需要行会总战功："</string>
+    <string name="guild_levelup_info4">"升级需要霸者令牌个数："</string>
+    <string name="guild_levelup_warning">"仅会长可进行升级操作"</string>
+    <string name="guild_levelup_top">"行会已达到顶级。"</string>
+    <string name="guild_levelup_fit">"（条件满足）"</string>
+    <string name="guild_levelup_nofit">"（不符合条件）"</string>
+    <string name="guild_member_member">"成员"</string>
+    <string name="guild_member_level">"等级"</string>
+    <string name="guild_member_duty">"职务"</string>
+    <string name="guild_member_rank">"排名"</string>
+    <string name="guild_member_exploit">"战功"</string>
+    <string name="guild_member_profession">"职业"</string>
+    <string name="guild_member_contribution">"贡献度"</string>
+    <string name="guild_member_lastlogin">"最后登录"</string>
+    <string name="guild_member_menu_check">"查看装备"</string>
+    <string name="guild_member_menu_friend">"加为好友"</string>
+    <string name="guild_member_menu_talk">"私聊"</string>
+    <string name="guild_member_menu_appoint">"任命职务"</string>
+    <string name="guild_member_menu_remove">"解除职务"</string>
+    <string name="guild_member_menu_prop">"赠予道具"</string>
+    <string name="guild_member_menu_transfer">"转让会长"</string>
+    <string name="guild_member_menu_kick">"踢出行会"</string>
+    <string name="guild_member_menu_blacklist">"加黑名单"</string>
+    <string name="guild_member_not_online">"该行会成员不在线！"</string>
+    <string name="guild_member_show_online">"只显示在线的行会成员"</string>
+    <string name="guild_last_login_time_hour">"小时"</string>
+    <string name="guild_last_login_time_in">"内"</string>
+    <string name="guild_last_login_time_out">"前"</string>
+    <string name="guild_last_login_time_day">"天"</string>
+    <string name="guild_last_login_time_long">"超过7天"</string>
+    <string name="guild_welfare">"领取福利"</string>
+    <string name="guild_pray">"祈福"</string>
+    <string name="guild_pray_tip">"成员每天可各祈福一次"</string>
+    <string name="guild_pray_tip1">"需会长到皇宫的史官处开启及关闭祈福状态"</string>
+    <string name="guild_pray_tip2">"祈福后全行会成员均分享此状态"</string>
+    <string name="guild_pray_mode1">"道神：提升金币获得数量"</string>
+    <string name="guild_pray_mode2">"武神：提升物品掉落概率"</string>
+    <string name="guild_pray_mode3">"法神：获得多倍经验时间"</string>
+    <string name="guild_pray_select">"请选择祈福"</string>
+    <string name="guild_pray_state">"当前状态："</string>
+    <string name="guild_pray_people">"祈福者："</string>
+    <string name="guild_pray_comfirm">"确认消耗XX元宝加强福利领取来造福帮众吗？"</string>
+    <string name="guild_pray_condition">"行会等级X时开启"</string>
+
+    <!-- 查看军团信息 -->
+    <string name="legioninfocheck_alreadyin">"您已加入军团不能申请"</string>
+    <string name="legioninfocheck_errorinfo">"当前军团信息有误,请关闭窗口后重新尝试"</string>
+    <string name="legioninfocheck_curLeader">"现任军团长:"</string>
+    <string name="legioninfocheck_curLegionLevel">"军团等级:"</string>
+    <string name="legioninfocheck_legionMemNum">"军团成员:"</string>
+    <string name="legioninfocheck_withoutAnn">"这个军团的军团长比较懒,没有军团公告"</string>
+
+    <!-- 军团功能 -->
+    <string name="legionfun_addFriend">"添加好友"</string>
+    <string name="legionfun_addTeam">"邀请入队"</string>
+    <string name="legionfun_check">"查看信息"</string>
+    <string name="legionfun_chat">"设置私聊"</string>
+    <string name="legionfun_infoError">"操作信息有误,请关闭窗口后重试!"</string>
+
+    <!-- 福利 -->
+    <string name="prize_signed">"签到"</string>
+    <string name="prize_recieve">"领取"</string>
+
+    <!-- 装备强化 -->
+    <string name="Equip_increaseSuccessRate">"您将消耗XX元宝，提升强化成功率！"</string>
+    <string name="Equip_reduceFailRate">"您将消耗XX元宝，降低强化破碎率！"</string>
+    <string name="Equip_openStove">"您将消耗XX元宝，打开一个新的炉眼！"</string>
+    <string name="Equip_cooling">"冷却中"</string>
+    <string name="Equip_ClearCooling2">"花费30元宝消除所有冷却时间！"</string>
+    <string name="Equip_ClearCooling">"消除冷却"</string>
+    <string name="Equip_price">"强化费用：xx金币"</string>
+    <string name="Equip_upgrade">"强化"</string>
+    <string name="Equip_success">"恭喜您！强化成功！"</string>
+    <string name="Equip_fail">"抱歉！强化失败！"</string>
+    <string name="Equip_Broken">"抱歉！装备破碎！"</string>
+    <string name="Equip_NO">"该装备不可强化！"</string>
+    <string name="Equip_extend_NO">"该装备不可传承！"</string>
+    <string name="Equip_be_extend_NO">"该装备不可被传承！"</string>
+    <string name="Equip_xiangqian_NO">"该装备不可镶嵌！"</string>
+    <string name="Equip_xiangqian_stone_NO">"该宝石不可镶嵌！"</string>
+    <string name="Equip_dakong_NO">"该装备不可打孔！"</string>
+    <string name="Equip_kouchu_NO">"该装备不可抠除！"</string>
+    <string name="Equip_success2">"该装备成功强化至"</string>
+    <string name="Equip_NOSrove">"该炉眼不可用！"</string>
+    <string name="Equip_Notice">"装备每强化10次上升一个品阶"</string>
+    <string name="Equip_Notice2">"强化至高阶的会有附加属性奖励"</string>
+    <string name="Equip_NOMONEY">"余额不足，无法洗炼！"</string>
+    <string name="Equip_NOMONEY2">"金币不足，不能强化！"</string>
+    <string name="Equip_Inavailable">"未开启"</string>
+    <string name="Equip_open">"开启"</string>
+    <string name="Equip_available">"可强化"</string>
+    <string name="Equip_double_select">"双击选择要强化的装备"</string>
+    <string name="Equip_Hits_select">"点击进行翻页"</string>
+    <!-- 潜力清洗 -->
+    <string name="Potential_count">"剩余次数"</string>
+    <string name="Potential_addCount">"增加次数"</string>
+    <string name="Potential_Equip">"放入需要洗炼的装备"</string>
+    <string name="Potential_NOEquip">"请添加要洗练的装备"</string>
+    <string name="Potential_gold">"金签筒"</string>
+    <string name="Potential_ag">"银签筒"</string>
+    <string name="Potential_fe">"铁签筒"</string>
+    <string name="Potential_pay">"抽签费用："</string>
+    <string name="Potential_shake">"摇晃手机进行抽签"</string>
+    <string name="Potential_PickUp">"拾取"</string>
+    <string name="Potential_GiveUp">"放弃"</string>
+    <string name="Potential_again">"重选签筒"</string>
+    <string name="Potential_pin">"品"</string>
+    <string name="Potential_lel">"级"</string>
+    <string name="Potential_notice">"不同的签筒洗炼出高级品阶的概率不同"</string>
+    <string name="solo_pve">"单人副本"</string>
+    <string name="solo_into">"进入副本"</string>
+    <string name="solo_hjmy">"幻界魔域"</string>
+    <string name="solo_wyt">"万妖塔"</string>
+    <string name="solo_buy_active">"购买历练值"</string>
+    <string name="solo_active_value">"当前历练值："</string>
+    <string name="solo_active_info1">"每在线"</string>
+    <string name="solo_active_info2">"分钟获得1点历练值"</string>
+    <string name="solo_active_buy0">"历练值不足。增加"</string>
+    <string name="solo_active_buy1">"增加"</string>
+    <string name="solo_active_buy2">"点历练值需要消耗"</string>
+    <string name="solo_active_buy3">"元宝，是否确认购买？"</string>
+    <string name="solo_active_buy4">"金币，是否确认购买？"</string>
+    <string name="solo_offline">"开启离线修炼"</string>
+    <string name="solo_offline_open">"已开启"</string>
+    <string name="solo_offline_close">"未开启"</string>
+    <string name="solo_pass_condition">"过关条件"</string>
+    <string name="solo_pass_info1">"增加过关奖励20%{c}{br}2元宝{c}"</string>
+    <string name="solo_pass_info2">"增加过关奖励50%{c}{br}10元宝{c}"</string>
+    <string name="solo_pass_info3">"增加过关奖励20%{c}{br}{#00FF00已开启}{c}"</string>
+    <string name="solo_pass_info4">"增加过关奖励50%{c}{br}{#00FF00已开启}{c}"</string>
+    <string name="solo_confirm_info1">"增加过关后20%的金币奖励，需消耗2元宝。{#FF0000（仅本关有效）}"</string>
+    <string name="solo_confirm_info2">"增加过关后50%的金币奖励，需消耗10元宝。{#FF0000（仅本关有效）}"</string>
+    <string name="solo_confirm_info3">"退出副本消耗的历练值将不返还，真的要退出吗？"</string>
+    <string name="solo_reset_info">"消耗50元宝刷新重置，回到第1层。"</string>
+    <string name="solo_direct_info">"直接进入副本需2元宝。"</string>
+    <string name="solo_confirm_throne">"开启宝箱需消耗2元宝。"</string>
+    <string name="solo_pass_wyt_info1">"评级"</string>
+    <string name="solo_pass_wyt_info2">"享有使用元宝开启宝箱的机会"</string>
+    <string name="solo_pass_wyt_info3">"次"</string>
+    <string name="solo_pass_wyt_info4">"请选择副本奖励"</string>
+    <string name="solo_pass_wyt_info5">" 每次需消耗2元宝"</string>
+    <string name="solo_ok">"开始挑战"</string>
+    <string name="solo_no">"退出关卡"</string>
+    <string name="solo_back">"返回关卡"</string>
+    <string name="solo_new">"新的关卡"</string>
+    <string name="solo_reset">"刷新重置"</string>
+    <string name="solo_backgame">"返回游戏"</string>
+    <string name="solo_exit">"退出副本"</string>
+    <string name="solo_level_award">"关卡奖励"</string>
+    <string name="solo_pass_title_win">"副本通关"</string>
+    <string name="solo_pass_title_win1">"副本奖励"</string>
+    <string name="solo_pass_level">"评级"</string>
+    <string name="solo_pass_gold">"奖励金币："</string>
+    <string name="solo_pass_luck">"祝福："</string>
+    <string name="solo_pass_title_lost">"失败"</string>
+    <string name="solo_pass_text_lost">"大侠请重新再来！"</string>
+    <string name="solo_pass_time">"时间："</string>
+    <string name="solo_offline_title">"离线修炼时间"</string>
+    <string name="solo_offline_practice">"修炼"</string>
+    <string name="solo_offline_info1">"消耗完剩余历练值"</string>
+    <string name="solo_offline_info2">"1小时（消耗40历练值）"</string>
+    <string name="solo_offline_info3">"2小时（消耗100历练值）"</string>
+    <string name="solo_offline_info4">"离线修炼只获得角色经验，不获得金币和掉落道具。"</string>
+
+    <!-- 寄售系统 -->
+    <string name="auction_name">"名称"</string>
+    <string name="auction_amount">"数量"</string>
+    <string name="auction_price">"价格"</string>
+    <string name="auction_error">"寄售信息有误,请再次尝试。"</string>
+    <string name="auction_notAllowBuyOwn">"不能购买自己寄售的物品!"</string>
+    <string name="auction_notOnsale">"不在寄售中的物品不能操作"</string>
+    <string name="auction_pkgFull">"背包已满，请整理后再来"</string>
+    <string name="auction_btnBuy">"购买"</string>
+    <string name="auction_btnInputDefault">"请输入物品名称"</string>
+    <string name="auction_auctionAlreadyBack">"物品%s已收回"</string>
+    <string name="auction_auctionBackSuc">"物品%s收回成功"</string>
+    <string name="auction_auctionBuyFail">"物品%s购买失败"</string>
+    <string name="auction_auctionBuySuc">"物品%s购买成功"</string>
+    <string name="auction_auctionStopSold">"物品%s已停售"</string>
+    <string name="auction_selectNoneGoods">"请选择寄售的物品"</string>
+    <string name="auction_addAuctionSuc">"添加物品%s寄售成功"</string>
+    <string name="auction_addAuctionFail">"添加物品%s寄售失败"</string>
+    <string name="auction_costNotEnough">"手续费不足"</string>
+    <string name="auction_auctionMax">"当前已达到寄售的上限，提升VIP等级可以增加寄售上限"</string>
+    <string name="auction_isBinding">"绑定的物品无法寄售"</string>
+    <string name="auction_inputCopperError">"输入的铜钱金额不能小于最低值"</string>
+    <string name="auction_inputIngotError">"输入的元宝金额不能小于最低值"</string>
+    <string name="auction_btnBack">"收回"</string>
+    <string name="auction_btnCancel">"取消"</string>
+    <string name="auction_btnAlreadySold">"已售"</string>
+    <string name="auction_btnBackMoney">"收钱"</string>
+    <string name="auction_btnStopSold">"停售"</string>
+    <string name="auction_leftTime">"剩余时间"</string>
+    <string name="Consignment_noEquip">"未强化"</string>
+    <string name="Consignment_statusStop">"停售"</string>
+    <string name="Consignment_title">"寄卖行"</string>
+    <string name="Consignment_professions">"职业"</string>
+    <string name="Consignment_levels">"等级"</string>
+    <string name="Consignment_qualitys">"品阶"</string>
+    <string name="Consignment_currencys">"价格"</string>
+    <string name="Consignment_statusOver">"售出"</string>
+    <string name="Consignment_auctionSubTypes">"类型"</string>
+    <string name="Consignment_saler">"出售者"</string>
+    <string name="Consignment_search">"搜索"</string>
+    <string name="Consignment_filter">"过滤"</string>
+    <string name="Consignment_profession">"职业"</string>
+    <string name="Consignment_searche">"输入物品名称"</string>
+    <string name="Consignment_all">"全部"</string>
+    <string name="Consignment_weapon">"武器"</string>
+    <string name="Consignment_shield">"防具"</string>
+    <string name="Consignment_statusStart">"开售"</string>
+    <string name="Consignment_Accessories">"饰品"</string>
+    <string name="Consignment_statusIng">"寄售中"</string>
+    <string name="Consignment_other">"其他"</string>
+    <string name="Consignment_myName">"名称"</string>
+    <string name="Consignment_status">"状态"</string>
+    <string name="Consignment_statustakeBack">"收回"</string>
+    <string name="Consignment_time">"小时"</string>
+    <string name="Consignment_notice">"请输入寄售价格"</string>
+    <string name="Consignment_Commission">"手续费(金币)"</string>
+    <string name="Consignment_sellPrice">"出售价格"</string>
+    <string name="Consignment_statusWithdraw">"收钱"</string>
+    <string name="Consignment_">""</string>
+    <string name="Consignment_fail">"操作失败！"</string>
+    <string name="Consignment_buy">"购买"</string>
+    <string name="Consignment_no">"取消"</string>
+    <string name="Consignment_lvl">"级"</string>
+    <string name="Consignment_giveUpYuanbao">"请输入想寄卖的元宝数！"</string>
+    <string name="Consignment_wupin">"物品寄售"</string>
+    <string name="Consignment_yuanbao">"元宝寄售"</string>
+    <string name="modify">"修理"</string>
+    <string name="PXmodify">"普修"</string>
+    <string name="JXmodify">"精修"</string>
+    <string name="PackageList">"背包装备"</string>
+    <string name="PackageStoneList">"背包石头"</string>
+    <string name="AttrubyteList">"身上装备"</string>
+    <string name="NoticeWord">"单机查看，双击选定"</string>
+    <string name="NoticeWord1">"无可强化装备！"</string>
+    <string name="NoticeWord2">"无可传承装备！"</string>
+    <string name="NoticeWord3">"无可洗练装备！"</string>
+    <string name="NoticeWord4">"无可镶嵌装备！"</string>
+    <string name="NoticeWord5">"无可镶嵌宝石！"</string>
+    <string name="EquipListSelect">"选取"</string>
+    <string name="EquipListSelect1">"强化"</string>
+    <string name="EquipListSelect2">"传承"</string>
+    <string name="EquipListSelect3">"洗练"</string>
+    <string name="EquipListSelect4">"镶嵌"</string>
+    <string name="EquipcloseNotice">"当前您已消耗元宝增加成功率或降低破碎率(根据行为进行判断)，此时退出不返还元宝，是否退出?"</string>
+    <string name="condition">"条件"</string>
+    <string name="monster">"怪物"</string>
+    <string name="item">"物品"</string>
+    <string name="arrive">"到达"</string>
+    <string name="getMission">"接受任务"</string>
+    <string name="deliverMission">"交付任务"</string>
+    <string name="go">"去"</string>
+    <string name="search">"找"</string>
+    <string name="map_pos">"地图坐标"</string>
+    <string name="curr_percent">"当前进度"</string>
+    <string name="use_npc_option">"NPC功能"</string>
+    <string name="new_guide_mission">"新指引任务"</string>
+    <string name="guide_mission">"指引任务"</string>
+    <string name="guide_npc">"NPC"</string>
+    <string name="guide_map">"任务地图"</string>
+    <string name="guide_translate">"快速传送"</string>
+    <string name="guide_Buytranslate">"购买传送卷轴"</string>
+
+    <!-- 退出游戏 -->
+    <string name="exit_FlowRate">"本次登录消耗流量为"</string>
+    <string name="exit_server">"本次登录:"</string>
+    <string name="exit_offline_time">"持续时间"</string>
+    <string name="exit_offline_exp">"预计经验"</string>
+    <string name="exit_offline_open">"开启"</string>
+    <string name="exit_offline_vigour">"剩余历练"</string>
+    <string name="exit_offline_title">"是否开启离线修炼"</string>
+    <string name="exit_offline_FlowRateNotice">"已关闭流量提醒"</string>
+    <string name="recharge_busy">"服务器繁忙，请稍候再试！"</string>
+    <string name="KF_notice">"您还没有安装手机客服！是否现在进行安装？"</string>
+    <string name="prop">"道具"</string>
+    <string name="integral">"积分"</string>
+    <string name="skill_cding">"技能冷却中…"</string>
+    <string name="magic_less">"魔法不足"</string>
+    <!-- 人物装备栏说明 -->
+    <string name="equip_head">"头盔"</string>
+    <string name="equip_neck">"项链"</string>
+    <string name="equip_cloth">"衣服"</string>
+    <string name="equip_waist">"腰带"</string>
+    <string name="equip_weapon">"武器"</string>
+    <string name="equip_wrist_l">"手镯(左)"</string>
+    <string name="equip_wrist_r">"手镯(右)"</string>
+    <string name="equip_ring_l">"戒指(左)"</string>
+    <string name="equip_ring_r">"戒指(右)"</string>
+    <string name="equip_shoot">"靴子"</string>
+    <string name="equip_shoulder">"披风"</string>
+    <string name="equip_honor">"勋章"</string>
+    <string name="equip_wing">"翅膀"</string>
+    <string name="tip_unloot">"该物品不属于你，无法拾取（30秒）"</string>
+
+    <!-- 大话股 -->
+    <string name="dahuagu_game_title">"大话股"</string>
+
+    <!-- 转盘游戏 -->
+    <string name="dial_game_title">"幸运转盘"</string>
+    <string name="dial_game_remain1">"今日剩余"</string>
+    <string name="dial_game_remain2">"次机会"</string>
+    <string name="dial_game_fling">"划动转盘开始抽奖"</string>
+    <string name="dial_game_today_times">"今日剩余#次机会"</string>
+    <string name="dial_game_tomorrow_times">"明日登陆可获得#次机会和更高概率"</string>
+    <string name="dial_game_no_times_str">"今日次数已用完。"</string>
+
+    <!-- 分区 -->
+    <string name="Server_1">"一区"</string>
+    <string name="Server_2">"二区"</string>
+    <string name="Server_3">"三区"</string>
+    <string name="Server_4">"四区"</string>
+    <string name="Server_5">"五区"</string>
+
+    <!-- 副本 -->
+    <string name="Dup_raid">"扫荡"</string>
+    <string name="Dup_challenge">"挑战"</string>
+    <string name="Dup_rest_raid_times">"剩余扫荡次数 :"</string>
+    <string name="Dup_rest_time">"剩余时间 :"</string>
+    <string name="Dup_sel_raid_times">"选择扫荡次数"</string>
+    <string name="Dup_di">"第"</string>
+    <string name="Dup_ci_sao_dang">"次扫荡"</string>
+    <string name="Dup_get_exp">"获得经验 : "</string>
+    <string name="Dup_get_money">"获得金钱 : "</string>
+    <string name="Dup_get_silver">"获得银子 : "</string>
+    <string name="Dup_get_ingot">"获得元宝 : "</string>
+    <string name="Dup_get_bindIngot">"获得绑定元宝 : "</string>
+    <string name="Dup_get_qi">"获得真气 : "</string>
+    <string name="Dup_bonus">"通关奖励 : "</string>
+    <string name="Dup_time_raid_over">"次扫荡结束!"</string>
+    <string name="Dup_useup">消耗</string>
+    <string name="Dup_ke_sao_dang_yi_ci">"可扫荡一次"</string>
+    <string name="Dup_rest_buy_times">"剩余购买次数:"</string>
+    <string name="Dup_gold">"元宝"</string>
+    <string name="Dup_fighting">"战斗中......"</string>
+    <string name="Dup_jin_xin">"进行“装备提升”和“属性强化”"</string>
+    <string name="Dup_improve_fight">"可快速提升战斗力"</string>
+    <string name="Dup_money_revive">"复活费用:"</string>
+    <string name="Dup_return">"秒 后自动回城"</string>
+    <string name="Dup_challenge_not_enough">"挑战次数不足,是否花费"</string>
+    <string name="Dup_is_buy">"元宝购买一次？"</string>
+    <string name="Dup_rest_buy">"(剩余购买次数"</string>
+    <string name="Dup_times">"次)"</string>
+    <string name="Dup_buy_today_over">"今日购买次数已用完,请明日再来战！"</string>
+    <string name="Dup_use_key">"消耗钥匙:"</string>
+    <string name="Dup_pass_exp">"通关经验:</string>
+    <string name="Dup_pass_silver">"通关银子:"</string>
+    <string name="Dup_pass_ingot">"通关元宝:"</string>
+    <string name="Dup_pass_qi">"通关真气:"</string>
+    <string name="Dup_pass_bingIngot">"通关绑定元宝:"</string>
+    <string name="Dup_pass_money">"通关金钱:"</string>
+    <string name="Dup_key">"钥匙:"</string>
+    <string name="Dup_recover">"恢复"</string>
+    <string name="Dup_level">"等级:"</string>
+    <string name="Dup_profession">"职业:"</string>
+    <string name="Dup_usedTo">"用途:"</string>
+    <string name="Dup_price">"价格:"</string>
+    <string name="Dup_getBy">"获得途径:"</string>
+    <string name="Dup_not_challenge">"副本未解锁，请先完成："</string>
+    <string name="Dup_pre_chapter">"上一章节"</string>
+    <string name="Dup_challenge_success">"挑战成功"</string>
+
+    <!-- 装备 -->
+    <string name="BitMap_sure">"确定"</string>
+    <string name="BitMap_cancel">"取消"</string>
+    <string name="BitMap_recharge">"充值"</string>
+    <string name="Equip_zbbwsx">"装备部位属性"</string>
+    <string name="Equip_attack">"攻击  "</string>
+    <string name="Equip_linglong">"玲珑"</string>
+    <string name="Equip_wusheng">"武圣"</string>
+    <string name="Equip_shenwei">"神威"</string>
+    <string name="Equip_dushi">"毒士"</string>
+    <string name="Equip_doushen">"斗神"</string>
+    <string name="Equip_qiaobian">"巧变"</string>
+    <string name="Equip_notFJ">"不可分解"</string>
+    <string name="Equip_FJ">"可分解"</string>
+    <string name="Equip_RL">"可熔炼"</string>
+    <string name="Equip_sold">"可出售"</string>
+    <string name="Equip_notSold">"不可出售"</string>
+    <string name="Equip_shoujia">"售价:"</string>
+    <string name="Equip_wpms">"物品描述:"</string>
+
+    <!-- 背包 -->
+    <string name="pkg_buyBack">"回购"</string>
+    <string name="pkg_saleWhite">"出售白装"</string>
+    <string name="pkg_saleGreen">"出售绿装"</string>
+    <string name="pkg_saleBlue">"出售蓝装"</string>
+
+    <!-- yss 聊天、排行榜 -->
+    <string name="CHAT_HINT">"点击输入"</string>
+    <string name="FRIEND_SEARCH">"请输入好友的信息"</string>
+    <string name="toplist_content_rank">"排名"</string>
+    <string name="toplist_content_nickname">"名称"</string>
+    <string name="toplist_content_level">"等级"</string>
+    <string name="toplist_content_profession">"职业"</string>
+    <string name="toplist_content_fighting">"战力"</string>
+    <string name="toplist_content_look">"查看"</string>
+    <string name="toplist_content_guild_name">"军团名称"</string>
+    <string name="toplist_content_guild_leader">"军团长"</string>
+    <string name="toplist_content_guild_memmber">"成员"</string>
+    <string name="toplist_content_guanzhi">"官职"</string>
+    <string name="toplist_content_killnum">"杀人数"</string>
+    <string name="toplist_content_number">"名次"</string>
+    <string name="toplist_content_caifu">"财富"</string>
+    <string name="task_zhang">"章"</string>
+    <string name="toplist_content_membercount">"人数"</string>
+    <string name="toplist_content_applycondition">"申请条件"</string>
+
+    <!-- 洗练 -->
+    <string name="concise_withoutAttri">"该装备无法洗练"</string>
+    <string name="concise_withoutConc">"当前装备无法洗炼"</string>
+    <string name="concise_withoutMoney">"金钱不足"</string>
+    <string name="concise_withoutMaterial">"材料不足"</string>
+    <string name="concise_withoutIngot">"元宝不足"</string>
+    <string name="tips_not_enough_lock">"{#fff5e0背包中的洗炼锁数量不足}{br}{#fff5e0是否消耗}{#00ff00$元宝}{#fff5e0购买并洗炼？}"</string>
+
+    <!-- 材料不足提示 -->
+    <string name="tips_not_enough_material">"材料不足，你可以消耗%s补齐材料或通过副本挑战获取材料";</string>
+    <string name="withoutMaterial">"材料不足，当前材料无法购买。"</string>
+
+    <!-- yss 好友 -->
+    <string name="tips_confirm_add_friend">"{#e2e0d4%s}{#dc9926请求添加您为好友}"</string>
+    <string name="tips_confirm_add_black">"{#dc9926确定把}{#e2e0d4%s}{#dc9926加入黑名单么?}"</string>
+    <string name="tips_confirm_delete_friend">"{#dc9926确定删除}{#e2e0d4%s}{#dc9926么?}"</string>
+
+    <!-- yss 天翼 & 兵魂 -->
+    <string name="open_xiulian_failed">"开启修炼失败"</string>
+    <string name="wear_wing_failed">"穿上翅膀失败"</string>
+    <string name="wear_weapon_failed">"穿上武器失败"</string>
+    <string name="not_enough_material">"材料不足，通关副本"%s"可获得修炼材料"</string>
+    <string name="not_enough_money">"金钱不足，通关副本"%s"可获得大量金钱"</string>
+    <string name="full_grade">"%s已满阶"</string>
+    <string name="skywing_tip0">"所有翅膀的战力都叠加计算，开的越多战力越强!"</string>
+    <string name="soulweapon_tip0">"所有兵魂的战力都叠加计算，开的越多战力越强!"</string>
+    <string name="today_times">"今日可修炼 $次,VIP可提高次数"</string>
+    <string name="not_level">"等级不足!"</string>
+
+    <!-- yss 任务补充 -->
+    <string name="beat">"杀"</string>
+    <string name="pick">"收集"</string>
+    <string name="bag_not_enough">"背包空间不足，无法完成任务"</string>
+    <string name="not_find_mission_status">"未找到对应的任务状态"</string>
+
+    <!-- yss 宝石 -->
+    <string name="not_select_equip">"未选中装备"</string>
+    <string name="not_select_diamond">"未选中宝石"</string>
+    <string name="not_enough_level">"未达到使用等级"</string>
+    <string name="not_use_equal_level">"不能镶嵌相同类型的宝石"</string>
+    <string name="not_enough_diamond">"宝石数量不足"</string>
+    <string name="full_diamond_hole">"凹槽已满，镶嵌失败"</string>
+    <string name="tips_disassemble_diamond">"{#ebbf25确定将%s拆卸放入背包么？}{br}{#00ff00(拆卸后，附加的属性将会消失)}"</string>
+    <string name="tips_open_diamond_hole">"{#ebbf25确定消耗}{#00ff00%s*$}{#ebbf25，开启这个宝石孔么？}"</string>
+    <string name="not_enough_diamondNum">"宝石数量不够，不能合成"</string>
+    <string name="tips_bag_full_not_chaixie">"背包已满，无法拆卸宝石。"</string>
+    <string name="tips_bag_full_not_xiangqian">"背包已满，无法镶嵌宝石。"</string>
+    <string name="tips_bag_full_not_onekey_chaixie">"背包空间不足，无法一键卸下宝石。"</string>
+    <string name="tips_parts_no_diamond">"该部位没有宝石~~~"</string>
+    <string name="howto_get_diamond">"你可以通过下列方式获取宝石"</string>
+    <string name="tips_tihuan_diamond">"是否将【%1$s*%2$s】 替换为【%3$s*%4$s】"</string>
+
+    <!-- yss 部位强化 -->
+    <string name="buy_by_yuanbao">"材料不足由元宝支付"</string>
+    <string name="ill_conditioned">"玩家的%s不足无法强化!"</string>
+    <string name="not_enough_ingot">"元宝不足"</string>
+
+    <!-- yss 悬赏令 -->
+    <string name="reward_title">"悬赏令"</string>
+    <string name="refreshBtn">"刷新列表"</string>
+    <string name="finishAllBtn">"一键完成"</string>
+    <string name="acceptedBtn">"已接任务"</string>
+    <string name="bigWardBtn">"领取"</string>
+    <string name="tips_full_accepted_mission">"可接取任务已满"</string>
+    <string name="tips_has_achieve_big_reward">"您已领取大奖！"</string>
+    <string name="tips_has_finish_all_mission">"今天的任务都做完了，无法完成所有任务！"</string>
+    <string name="tips_not_refresh_of_finish_all">"今天的任务已做完，无法刷新！"</string>
+    <string name="tips_not_finish_all">"未完成所有的任务，不能领取大奖"</string>
+    <string name="txt_remaining_fresh_times">"免费刷新还剩下%s次"</string>
+    <string name="txt_fresh_need_refreshRune">"{#%1$s免费次数已用完，继续刷新需要消耗}{#%2$s%3$s*%4$s}"</string>
+    <string name="txt_fresh_need_yuanbao">"{#%1$s免费次数已用完，继续刷新需要消耗}{#%2$s%3$s元宝}"</string>
+
+    <!-- yss 副本 -->
+    <string name="leave_duplicate">"离开后将无法返回此副本"</string>
+    <string name="logo_notice">"（不消耗流量）正在拼命为主公加载"</string>
+    <string name="logo_notice_map">"世界地图"</string>
+    <string name="logo_notice_Mapconfigure">"地图信息"</string>
+    <string name="logo_notice_SoundEffects">"音乐"</string>
+    <string name="logo_notice_Menu">"菜单资源"</string>
+    <string name="logo_notice_role">"主角资源"</string>
+    <string name="logo_notice_GameMetaData">"游戏元数据"</string>
+    <string name="logo_notice_initNumberEffects">"数字特效"</string>
+    <string name="logo_notice_GoodsModel">"物品模型"</string>
+    <string name="logo_notice_SkillClientBin">"技能配置"</string>
+    <string name="logo_notice_WeatherBin">"天气系统"</string>
+    <string name="logo_notice_SkillEffects">"技能"</string>
+    <string name="logo_notice_MiniHelper">"小助手资源"</string>
+    <string name="logo_notice_Guild">"军团资源"</string>
+    <string name="logo_notice_activityTips">"活动资源"</string>
+    <string name="logo_notice_VIP">"VIP资源"</string>
+    <string name="logo_notice_recharge">"充值数据"</string>
+    <string name="not_level_enter">"等级不足，无法进入"</string>
+    <string name="tips_leave_normal_team">"是否离开队伍，进入副本？"</string>
+    <string name="tips_no_golekey">"黄金钥匙不足，是否花费50元宝购买？"</string>
+    <string name="tips_in_team">"您当前处于组队状态，需要退队后才能继续操作"</string>
+    <string name="tips_changing_dup">"队长正在更换副本，请稍候"</string>
+    <string name="tips_in_changing_but_not_leader">"变更副本中，您不是队长，无法操作"</string>
+    <string name="tips_in_ready_multidup_fighting">"多人副本挑战准备中，无法切换场景。"</string>
+
+    <!-- wmw 怪物入侵 -->
+
+    <string name="invade">"怪物入侵"</string>
+    <string name="invade_score">"积分"</string>
+    <string name="invade_Finish">"已发送到邮箱"</string>
+    <string name="invade_unFinish">"未达成"</string>
+    <string name="invade_openActive">"只有副军长及以上官职才能开启活动"</string>
+    <string name="invade_describe1">"军团图腾柱，汇聚了龙神的力量，是军团力量以及凝聚力的源泉。怪物们惧怕军团图腾柱，又极度渴望将他摧毁，摧毁军团的凝聚力，使斗士们一团散沙。"</string>
+    <string name="invade_describe2">1.活动由副军团长以上官员在集会所中找到天地志狼，对话开启。</string>
+    <string name="invade_describe3">2.活动开启后，军团成员们需要进入集会所，反抗怪物对集会所的入侵。</string>
+    <string name="invade_describe4">3.每杀死一只怪，军团积分都会有对应的增涨，积分越高，图腾柱守护者就会发放越好的奖励给正在为守护图腾而努力的玩家们。</string>
+    <string name="invade_noGuide"> "请在30级后加入一个军团"</string>
+    <string name="invade_noOpenActive">"军团长暂未开启该活动"</string>
+    <string name="invade_StopMonster">“怪物数量已达上限，停止刷新”</string>
+    <string name="invade_Open">"军团活动：怪物入侵已开启，是否前往军团集会所参加。"</string>
+    <string name="invade_fuben">"处在副本状态，无法跳转集会所。"</string>
+    <string name="invade_longlangdou">"处在龙狼斗状态，无法跳转集会所。"</string>
+    <string name="invade_qinglong">"处在青龙泽状态，无法跳转集会所。"</string>
+
+    <!-- wmw 妖八阵 -->
+
+    <string name="demon">"妖八阵"</string>
+    <string name="demon_background">“凤雏”庞统为了考验勇士的智慧和勇气，在此布下“妖八阵”，将误入其中的孙尚香困在此处，只要保护孙尚香，撑到天地志狼的到来，就可获得庞统的认可！</string>
+    <string name="demon_describe1">1.该活动每周固定时间开放;</string>
+    <string name="demon_describe2">2.活动开启后，可组队进行挑战，也可单人进行挑战;</string>
+    <string name="demon_describe3">3.每杀死一只怪物，会对应获得积分，积分越高奖励越高;</string>
+    <string name="demon_describe4">4.孙尚香死亡，活动立即结束;</string>
+    <string name="demon_describe5">5."中途退出活动不可再次进入;"</string>
+    <string name="active_exit">是否确定离开活动"</string>
+    <string name="active_exit_Tips">（退出活动后，将无法再次进入）"</string>
+    <string name="active_start">"是否确定进入妖八阵活动"</string>
+    <string name="demon_Open">"军团活动：怪物入侵已开启，是否前往军团集会所参加。"</string>
+
+    <!-- wmw 斗仙之门 -->
+
+    <string name="douxian">"斗仙之门"</string>
+    <string name="douxian_background">鬼王“元武”因修炼“斗仙术”而误入魔道，为了成为“天地之神”，他不惜吸取凡人的精气，还将其变成魔物。如今，他竟将泉真澄掳到山下，等候阴日阴时吸取其精气。勇士们，快去拯救真澄，击杀魔物，阻止鬼王的企图！</string>
+    <string name="douxian_describe1">1.该活动每周固定时间开放，中途退出活动不可再次进入;</string>
+    <string name="douxian_describe2">2.活动开启后，玩家可单人进行挑战，进入场景后可以组队杀怪，积分共享;</string>
+    <string name="douxian_describe3">3.每杀死一只怪物，会对应获得积分，积分越高奖励越高;</string>
+    <string name="douxian_describe4">4.单个村门被攻破，则对应的山门将会停止刷怪，四个村门均被攻破，活动立即结束;</string>
+
+    <!-- 竞技场 -->
+    <string name="arena_title">"竞技场"</string>
+    <string name="arena_rank">"竞技榜"</string>
+    <string name="arena_emptyReportList">"快去挑战吧，目前没有您的战报记录！"</string>
+    <string name="arena_realy">"正在准备进入竞技场…"</string>
+    <string name="arena_unUseMedicine">"公平竞技，不能服药"</string>
+    <string name="arena_reward"> "(每天21：00发放奖励)"</string>
+    <string name="arena_myRank"> "我的排名："</string>
+    <string name="arena_RankReward">"排名奖励："</string>
+    <string name="arena_RemainTime">"剩余次数："</string>
+    <string name="arena_buyTimes">"购买次数"</string>
+    <string name="arena_refer">"刷新过于频繁"</string>
+
+    <!-- 经脉 -->
+    <string name="jm_title">"经脉"</string>
+    <string name="jm_proadds">"整体加成："</string>
+    <string name="jm_acpointeffect">"穴道效果："</string>
+    <string name="jm_require">"冲脉需求："</string>
+    <string name="jm_congjixuedao">"冲级穴道"</string>
+    <string name="jm_auto">"自动冲脉"</string>
+    <string name="jm_stop">"停止冲脉"</string>
+    <string name="jm_actpointEffect">"穴道效果 :"</string>
+    <string name="jm_roleLevel">"角色等级"</string>
+    <string name="jm_xiaohao">"消耗 :"</string>
+    <string name="jm_time">"冲穴次数 :"</string>
+    <string name="jm_unActive">"未激活"</string>
+    <string name="jm_active">"已激活"</string>
+    <string name="jm_success">"恭喜你，冲穴成功"</string>
+
+    <!-- Jason -->
+    <string name="TopTipShow_get_from_activity">"活动获取"</string>
+    <string name="TopTipShow_Mall">"商城购买"</string>
+    <!--  -->
+    <string name="medicine_cdTime">"正在CD中…"</string>
+    <string name="medicine_useLimit">"未到药水使用等级…"</string>
+    <string name="tips_openFunction">"暂未达到功能开放等级,骚年努力升级吧!n(*≧▽≦*)n"</string>
+    <string name="maxVP">"真气"</string>
+    <string name="exp">"经验"</string>
+    <string name="youget">"你获得了"</string>
+
+    <!-- 礼包兑换 -->
+    <string name="reward_exchangeCDKey">"请输入兑换码"</string>
+    <string name="reward_cdKeyError">"兑换码错误"</string>
+    <string name="reward_cdKeyUsed">"兑换码已使用"</string>
+    <string name="reward_lossEffect">"兑换码错误"</string>
+    <string name="reward_serverError">"兑换失败，请稍后再试"</string>
+    <string name="reward_channelNotRelate">"无效的兑换码"</string>
+    <string name="reward_exchangeOverTime">"已兑换该礼包"</string>
+
+    <!-- 跳转功能 -->
+    <string name="jump_toNotOpen">"当前功能未开放，请尽快提升您的等级!"</string>
+
+    <!-- 军团 -->
+    <string name="guild_inputGuildName">"请输入军团名称"</string>
+    <string name="guild_inputGuildOwner">"请输入军团长名称"</string>
+    <string name="guild_createInputGuildName">"输入军团名称"</string>
+    <string name="guild_tech">"军团科技"</string>
+    <string name="guild_waterSuc">"浇水成功"</string>
+    <string name="guild_collectSuc">"聚宝成功"</string>
+    <string name="guild_online">"在线"</string>
+
+    <!-- 聚宝树 -->
+    <string name="moneyTree">"聚宝树"</string>
+    <string name="moneyTree_record">"聚宝日志"</string>
+    <string name="moneyTree_collectTime">"次数:"</string>
+    <string name="moneyTree_cost">"费用:"</string>
+    <string name="moneyTree_noCollectTime">"聚宝次数用尽"</string>
+    <string name="moneyTree_noCostEnough">"聚宝消耗不足"</string>
+
+    <!-- 比武活动 -->
+    <string name="contest_ranklist_name">"名字 "</string>
+    <string name="contest_ranklistkillnum">"杀人总数"</string>
+    <string name="contest_ranklist_liansha">"最高连杀"</string>
+    <string name="contest_ranklist_shiqi">"士气"</string>
+    <string name="contest_ranklist_jifen">"积分"</string>
+    <string name="contest_ranklist_jishazongshu">"击杀总数"</string>
+    <string name="tips_miss_enter_contest">"您错过了龙狼斗的入场时间，现已无法进入！"</string>
+    <string name="tips_nonnormal_enter_contest">"非进场时间入场,您的最终收益将减半。是否现在进入？"</string>
+    <string name="tips_enter_contest">"您即将进入%s。是否现在进入？"</string>
+    <string name="tips_end_contest">"龙狼斗活动已结束，请等待下次活动开启。"</string>
+    <string name="contest_intro">"{#ffffff由于人类给大地带来巨大的创伤，神之意志出现分歧，神龙与天狼决定将各自的意志交付给穿越而来的武者。现在由你们来决定人类最终的命运！！！}"</string>
+    <string name="contest_gameplay">"{#e495171.玩家在活动开启前进行报名,在活动开启后可进场,进场时间5分钟,逾期将不能进入。}{br}{#e495172.活动内击杀敌对阵营可获得积分,被击杀者会损失同等士气.士气为0时会被传出战场。}{br}{#e495173.活动中最后剩下的一方或者活动时间结束时阵营总积分最高的阵营获胜.平分判双败。}"</string>
+    <string name="dianfengduijue_intro">"{#ffffff杀戮，可以迷失本心，也可以了悟本心。为了至高的武技，永恒的巅峰，去尽情杀戮吧。无论入魔还是悟道，都只属于站着的那个人！！！}"</string>
+    <string name="dianfengduijue_gameplay">"{#e495171.玩家在活动开启时进入巅峰之境。}{br}{#e495172.在巅峰之境中除了你自己以外都是敌人。}{br}{#e495173.通过不断击败敌人来赢得积分，最终根据积分排行给予奖励。}"</string>
+    <string name="yonghengzhizhan_intro">"{#ffffff这个世界需要强者来制定规则，制衡一切。}{br}{#ffffff只有在无尽轮回的杀戮中才能诞生真正的强者。}"</string>
+    <string name="yonghengzhizhan_gameplay">"{#e495171.40级以上玩家在活动开启时进入太虚幻境。}{br}{#e495172.在幻境中除了你自己以外都是敌人。}{br}{#e495173.通过不断击败敌人来赢得积分，最终根据积分排行给予奖励。}"</string>
+    <string name="tips_exit_contest"> "退出活动将无法返回"</string>
+
+    <!-- 公共信息 -->
+    <string name="no_notice">"不再提示"</string>
+    <string name="current_no_notice">"本地登录不再提示"</string>
+    <string name="reconnect_socket_tips">"是否重新连接？"</string>
+    <string name="confirm">"确定"</string>
+    <string name="consume_bindingot_relive">"是否花费%s绑定元宝复活"</string>
+    <string name="charge_notenough_ingot">"元宝不足，是否前往充值"</string>
+
+    <!-- 问题反馈 -->
+    <string name="feedback_type">"问题类型"</string>
+    <string name="feedback_descri">"请描述您反馈建议,尽量保持在140字以内"</string>
+    <string name="feedback_ruleDes">"规则说明"</string>
+    <string name="feedback_ruleContent">"{#fff5e01.}{#e49517每日可通过【问题反馈】功能向研发大大们提出bug和意见}{br}{#fff5e02.}{#e49517每日第一次提出bug或建议可获得奖励礼包一次}{br}{#fff5e03.}{#e49517请在描述bug时，尽量描述清楚问题的操作和表现}{br}{#fff5e04.}{#e49517封测期间给予最大帮助的玩家公测时将得到官方感恩大礼包}"</string>
+    <string name="feedback_rewardBack">"反馈奖励"</string>
+    <string name="feedback_rewardBackType">"奖励将通过邮件发送"</string>
+    <string name="feedback_contentEmpty">"请正确输入正确的内容!"</string>
+    <string name="feedback_accountError">"用户异常,请稍后重试!"</string>
+    <string name="feedback_submitSucc">"提交成功,感谢您对我们游戏的支持!"</string>
+
+    <!-- 充值 -->
+    <string name="charge_notOpen">"充值功能暂未开放，敬请期待！"</string>
+
+    <!-- 页签标题 -->
+    <!-- 活动 -->
+    <string name="title_reward">"悬赏令"</string>
+    <string name="title_personal_boss">"个人BOSS"</string>
+    <string name="title_activity_boss">"活动BOSS"</string>
+    <string name="title_contest">"龙狼斗"</string>
+    <string name="title_dfdj">"巅峰对决"</string>
+    <string name="title_yhzz">"永恒之战"</string>
+    <string name="title_invade">"怪物入侵"</string>
+    <string name="title_qinglongze">"青龙泽"</string>
+    <string name="title_arena">"竞技场"</string>
+    <string name="title_marsworkship">"战神膜拜"</string>
+
+    <!-- 精彩活动 -->
+    <string name="win_name_ohter_activities">"精彩活动"</string>
+    <string name="title_rechargeReward">"累充好礼"</string>
+    <string name="title_CarryLevel">"冲级有奖"</string>
+    <string name="title_WifiReward">"Wifi奖励"</string>
+    <string name="title_FightCount">"战力比拼"</string>
+    <string name="title_GrowthCapital">"成长基金"</string>
+    <string name="title_backBenefit">"消费返利"</string>
+    <string name="title_dailyFirstCharge">"每日首充"</string>
+    <string name="title_dailyAccume">"每日累充"</string>
+
+    <!-- 每日首充 -->
+    <string name="daily_firstChargeError">"每天打赏人家一点嘛!⁄(⁄ ⁄•⁄ω⁄•⁄ ⁄)⁄"</string>
+
+    <!-- 人物 -->
+    <string name="title_package">"背包"</string>
+    <string name="title_attribute">"属性"</string>
+    <string name="title_smelter">"熔炉"</string>
+    <string name="title_fightCount">"战力"</string>
+    <string name="title_achievement">"成就"</string>
+    <string name="title_roletitle">"称号"</string>
+    <string name="title_office">"官职"</string>
+
+    <!-- 活动助手 -->
+    <string name="title_exper">"经验"</string>
+    <string name="title_copper">"铜币"</string>
+    <string name="title_prop">"道具"</string>
+    <string name="title_activity">"活动"</string>
+
+    <!-- 地图 -->
+    <string name="win_name_map">"地图"</string>
+    <string name="title_region">"当前"</string>
+    <string name="title_world">"世界"</string>
+    <string name="worldmap_limitlevel">"您还太弱小,不宜进入凶险的世界."</string>
+
+    <!-- 任务 -->
+    <string name="win_name_mission">"任务"</string>
+    <string name="title_main_mission">"主线"</string>
+    <string name="title_side_mission">"支线"</string>
+    <string name="title_daily_mission">"日常"</string>
+    <string name="title_reward_mission">"悬赏"</string>
+    <string name="tips_giveup_mission">"是否放弃该任务"</string>
+
+    <!-- 寄售行 -->
+    <string name="win_name_auction">"寄售行"</string>
+    <string name="title_auction">"寄售行"</string>
+    <string name="title_myauction">"我的寄售"</string>
+
+    <!-- 副本 -->
+    <string name="win_name_duplicate">"副本"</string>
+    <string name="title_challenge">"挑战"</string>
+    <string name="title_daily">"日常"</string>
+
+    <!-- 强化 -->
+    <string name="win_name_strenght">"强化"</string>
+    <string name="title_strength">"强化"</string>
+    <string name="title_xilian">"洗炼"</string>
+    <string name="title_diamond">"宝石"</string>
+    <string name="title_soul_weapon">"兵魂"</string>
+    <string name="title_sky_wing">"天翼"</string>
+    <string name="title_recoin">"重铸"</string>
+    <string name="title_inherit">"继承"</string>
+
+    <!-- 技能 -->
+    <string name="win_name_skill">"技能"</string>
+    <string name="title_active">"主动"</string>
+    <string name="title_advanced">"进阶"</string>
+
+    <!-- 排行榜 -->
+    <string name="win_name_ranklist">"排行榜"</string>
+    <string name="title_fighting">"战力榜"</string>
+    <string name="title_guild">"军团榜"</string>
+    <string name="title_eli">"斩将榜"</string>
+    <string name="title_jianke">"剑客榜"</string>
+    <string name="title_manling">"蛮灵榜"</string>
+    <string name="title_xiaoqi">"骁骑榜"</string>
+    <string name="title_money">"财富榜"</string>
+    <string name="title_level">"等级榜"</string>
+
+    <!-- 奖励 -->
+    <string name="win_name_reward">"奖励"</string>
+    <string name="title_online_reward">"在线奖励"</string>
+    <string name="title_daily_sign">"每日签到"</string>
+    <string name="title_vitality_type">"活跃度"</string>
+    <string name="title_seven_login">"七天登录"</string>
+    <string name="title_level_reward">"等级奖励"</string>
+    <string name="title_zhanli_reward">"战力奖励"</string>
+    <string name="title_offline_reward">"离线奖励"</string>
+    <string name="title_giftbag_exchange">"礼包兑换"</string>
+
+    <!-- 游戏助手 -->
+    <string name="win_name_minihelper">"游戏助手"</string>
+    <string name="title_experience">"我要升级"</string>
+    <string name="title_MATERIAL">"我要材料"</string>
+    <string name="title_WANTEQUIP">"我要装备"</string>
+    <string name="title_WANTPROMOTE">"我要变强"</string>
+
+    <!-- 好友 -->
+    <string name="win_name_friend">"好友"</string>
+    <string name="title_friend">"好友"</string>
+    <string name="title_near">"附近"</string>
+    <string name="title_black">"黑名单"</string>
+    <string name="title_foe">"仇人"</string>
+    <string name="title_mail">"邮件"</string>
+
+    <!-- 设置 -->
+    <string name="win_name_setting">"设置"</string>
+    <string name="title_systemsetup">"系统设置"</string>
+    <string name="title_aiprotected">"挂机保护"</string>
+
+    <!-- 军团 -->
+    <string name="win_name_legion">"军团"</string>
+    <string name="title_legioninfo">"信息"</string>
+    <string name="title_legiontoplist">"军团册"</string>
+    <string name="title_legionmember">"成员"</string>
+    <string name="title_legionFight">"宣战"</string>
+    <string name="title_legionManor">"领地"</string>
+
+    <!-- 图鉴 -->
+    <string name="win_name_tujian">"图鉴"</string>
+    <string name="title_tujian">"图鉴"</string>
+    <string name="title_zhenfa">"阵法"</string>
+
+    <!-- 进行中 -->
+    <string name="activity_ing">"进行中"</string>
+    <string name="activity_willOpen">"即将开放"</string>
+    <string name="activity_tomorrow">"明日开放"</string>
+    <string name="activity_lvOpen">"%s级开放"</string>
+
+    <!-- 独闯敌营 -->
+    <string name="climbTower_title">"独闯曹营"</string>
+    <string name="climbTower_bg">"白冥虎将传播瘟疫的田螺放在警戒森严的曹军军营内，为了天下苍生，您必须闯过重重关卡，然后毁灭瘟疫的源头！"</string>
+    <string name="climbTower_desc">"{#e495171.在限定的时间内击杀所有的怪物，即可进入下一关。}!{#e495172.每通过5关即可作为下次挑战的传送点。}!{#e495173.挑战过程中不可复活，角色死亡即挑战失败。}!{#e495174.每通一关即会获得一定的奖励，通关固定关卡可获得一个首次通关固定奖励。}!{#e495175.跳关奖励通过邮件发送。}"</string>
+    <string name="climbTower_reward">"活动奖励"</string>
+    <string name="climbTower_topList">"闯阵榜"</string>
+    <string name="climbTower_skipPoint">"跳层记录点:%s"</string>
+    <string name="climbTower_bestFloor">"最佳通关记录:%s"</string>
+    <string name="climbNews_leftTime">"剩余时间:"</string>
+    <string name="climbNews_curFloor">"当前层数  :"</string>
+    <string name="climbNews_leftMonster">"剩余怪物  :"</string>
+    <string name="climbNews_exitClimb">"是否放弃本次挑战?({#ff0000放弃挑战依旧会扣除挑战次数})"</string>
+    <string name="climbTower_skip">"跳层"</string>
+    <string name="climbTower_challenge">"挑战"</string>
+
+    <!-- 闯阵榜 -->
+    <string name="climbTopList_rank">"排名"</string>
+    <string name="climbTopList_playerName">"玩家名称"</string>
+    <string name="climbTopList_profession">"职业"</string>
+    <string name="climbTopList_fightcount">"战力"</string>
+    <string name="climbTopList_overcount">"闯阵数"</string>
+    <string name="climbTopList_totalTime">"总时间"</string>
+
+    <!-- 官职 -->
+    <string name="office_myJungong">"我的军功 :"</string>
+    <string name="office_OSalary">"官职俸禄"</string>
+    <string name="office_OSalaryDesc">"食君之禄，担君之忧。{br}每日只可领取1次国家俸禄，{br}官职越高，俸禄越高。"</string>
+    <string name="office_nextOsalary">"下阶俸禄:"</string>
+    <string name="office_promoteOffice">"积累军功提升官职，你当前还有{#ff0000%s次}买官机会，提高{#ff0000VIP等级}可以增加购买次数。"</string>
+    <string name="office_nextPlayerLv">"{#e49517下一级需求 :}%s级 "</string>
+    <string name="office_buy">"花钱买官"</string>
+    <string name="office_recieve">"领取俸禄"</string>
+    <string name="office_alreadyReceive">"你已经领取了当日的官职俸禄咯哦!"</string>
+    <string name="office_noTimeBuyOffice">"今日的买官次数已用尽,小主可以提升VIP等级获取次数或者明天再来哦!"</string>
+    <string name="office_out">"今日购买次数已用尽"</string>
+    <string name="office_tipsCopper">"铜钱不足,是否前往活动入口查看铜钱活动？"</string>
+    <string name="office_tipsIngot">"元宝不足,是否立刻前往充值?"</string>
+
+    <!-- 输出功能开放内容 -->
+    <string name="buttonOpen_notFound">"%s not found in clientInterface,nullPointException!"</string>
+
+    <!-- 城主争夺战 -->
+    <string name="enter_legion_manor">"您所在的军团现在可以进入夺城战"</string>
+
+    <!-- 军团战 -->
+    <string name="tips_fightto_someone">"{#c98619是否向}{#ffffff%1$s}{#c98619宣战}" </string>
+
+    <!-- 挂机保护内容 -->
+    <string name="ai_bloodTips_lastingMedicine">"持续药品设置:"</string>
+    <string name="ai_bloodTips_quickActMedicine">"瞬回药品设置:"</string>
+    <string name="ai_bloodTips_low1">"人物血量低于"</string>
+    <string name="ai_bloodTips_low2">"%时使用"</string>
+    <string name="ai_autoFurnage_quality1">"白色品质"</string>
+    <string name="ai_autoFurnage_quality2">"绿色品质"</string>
+    <string name="ai_autoFurnage_quality3">"蓝色品质"</string>
+    <string name="ai_autoFurnage_quality4">"紫色品质"</string>
+    <string name="ai_autoFurnace_desc1">"{#ff2a00VIP2且等级达到25级的玩家可以使用}{c}"</string>
+    <string name="ai_autoFurnace_desc2">"{#e49517挂机状态下自动熔炼勾选品质的所有装备}{c}"</string>
+    <string name="ai_medicineTips_desc">"点击图标选择药品.设置好药品种类后,将自动使用"</string>
+    <string name="ai_medicineTips_autoBuy">药品耗尽,自动购买</string>
+    <string name="ai_medicineTips_autoBuy2">"(会购买当前设置的药品)"</string>
+    <string name="ai_medicineTips_autoSelect">"自动选择药品"</string>
+    <string name="ai_medicineTips_autoDefender">"受到玩家攻击,自动反击"</string>
+    <string name="ai_medicineTips_withoutIngotMedicine">"%s 已消耗殆尽，继续购买补充。"</string>
+    <string name="ai_selectMedicine_levelLimit">"当前使用的药水等级超过玩家等级的限制！"</string>
+
+    <!-- 仓库管理 -->
+    <string name="warehouse_title">"仓库管理"</string>
+    <string name="warehouse_part_package">"背包"</string>
+    <string name="warehouse_part_warehouse">"仓库"</string>
+    <string name="warehouse_sortout">"整理"</string>
+    <string name="warehouse_remoteshop">"商店"</string>
+    <string name="warehouse_reqStorageData">"请求仓库数据"</string>
+    
+    <!-- 便捷助手-->
+    <string name="bianjiehelper_title">"便捷助手"</string>
+    <string name="bianjiehelper_miaosha">"秒杀"</string>
+    <string name="bianjiehelper_zhaohui">"找回"</string>
+    <string name="bianjiehelper_yicixinglingqu">"一次性领取所有奖励："</string>
+    <string name="bianjiehelper_miaoshaquanbu">"秒杀全部"</string>
+    <string name="bianjiehelper_notenoughgold">"元宝不足"</string>
+    <string name="bianjiehelper_miaoshafinish">"已经秒杀完成!"</string>
+    <string name="bianjiehelper_quanbumiaosha">"是否花费%s全部秒杀?"</string>
+    <string name="bianjiehelper_miaoshacishu">"秒杀%d次"</string>
+	
+    
+    <!-- 解绑提示 -->
+    <string name="jiebang_tips_desc">"您背包中有{#fff5e0%1$s个}{#00ff00%2$s},是否花费{#fff5e0%3$s个}{#00fff00%2$s},解绑{#fff5e0%4$s}"</string>
+
+    <!-- 消息通知栏 -->
+    <string name="notice_stick">"龙狼传奇给您发来一条新消息"</string>
+    <string name="notice_activityOpen">"活动开启"</string>
+    
+    <string name="activity_boss_has_killed">"BOSS已被击杀"</string>
+    <string name="activity_boss_hasnt_start">"挑战尚未开始"</string>
+
+    <string name="hello_world">"挑战尚未开始"</string>
+    <string name="imageBtn">"挑战尚未开始"</string>
+    <string name="action_settings">"挑战尚未开始"</string>
+    
+</resources>

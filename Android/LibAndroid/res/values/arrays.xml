@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="sports">
+        <item name="足球"/>
+        <item name="篮球"/>
+        <item name="排球"/>
+        <item name="太极拳"/>
+    </string-array>
+</resources>
