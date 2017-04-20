@@ -1,23 +1,23 @@
-public class main {
+ï»¿public class Main {
 
 	public static void main(String[] args) {
-		String localDir = "";
-		String mode = "";
-		String gameResInfoFile = "";
-		try {
-			localDir = args[0];
-			mode = args[1];
-			gameResInfoFile = args[2];
-		} catch (Exception e) {
-			e.printStackTrace();
-			System.err.println("ÎŞĞ§µÄ²ÎÊı/²ÎÊı²»×ã");
-			return;
-		}
+//		String localDir = "";
+//		String mode = "";
+//		String gameResInfoFile = "";
+//		try {
+//			localDir = args[0];
+//			mode = args[1];
+//			gameResInfoFile = args[2];
+//		} catch (Exception e) {
+//			e.printStackTrace();
+//			System.err.println("æ— æ•ˆçš„å‚æ•°/å‚æ•°ä¸è¶³");
+//			return;
+//		}
 
 		RedundantResources redundantResources = new RedundantResources();
-		redundantResources.setLocalDir(localDir);
-		redundantResources.setMode(mode);
-		redundantResources.setGameResInfoFile(gameResInfoFile);
+//		redundantResources.setLocalDir(localDir);
+//		redundantResources.setMode(mode);
+//		redundantResources.setGameResInfoFile(gameResInfoFile);
 		redundantResources.check();
 	}
 

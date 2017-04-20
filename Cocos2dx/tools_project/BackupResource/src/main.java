@@ -1,4 +1,3 @@
-//import java.beans.Statement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.Statement;
@@ -9,7 +8,7 @@ import java.sql.Statement;
  * @author yesunsong
  *
  */
-public class main {
+public class Main {
 
 	private static String table_name="COMPANY";
 	private static String field_name_1="time";
