@@ -30,6 +30,7 @@ public class StringUtils {
 	 * @param newChar
 	 */
 	// TODO 需要优化
+	@SuppressWarnings({ "unchecked" })
 	public void replace(ArrayList<String> list, char oldChar, char newChar) {
 		if (list.isEmpty()) {
 			return;
@@ -37,14 +38,26 @@ public class StringUtils {
 		List<String> tmpList = (List<String>) list.clone();
 		list.clear();
 
-		int index = 0;
 		for (String string : tmpList) {
-			list.add(tmpList.get(index).replace("/", "\\"));
-			index++;
+			list.add(string.replace(JavaMacro.SLASH, JavaMacro.BACKSLASH));
 		}
 	}
 	
 	public String replace(String string, char oldChar, char newChar) {
 		return string.replace(oldChar, newChar);
+	}
+	
+	/** 实现字节数组向十六进制的转换方法 */
+	public String byte2HexStr(byte[] b) {
+		String hs = "";
+		String stmp = "";
+		for (int n = 0; n < 9; n++) {
+			stmp = (Integer.toHexString(b[n] & 0XFF));
+			if (stmp.length() == 1)
+				hs = hs + "0" + stmp;
+			else
+				hs = hs + stmp;
+		}
+		return hs.toUpperCase();
 	}
 }

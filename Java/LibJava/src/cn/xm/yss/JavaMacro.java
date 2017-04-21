@@ -11,5 +11,10 @@ public class JavaMacro {
 	 /**反斜杠*/
 	 public static final char BACKSLASH  = '\\';  
 	 
+	 /**png后缀*/
+	 public static final String PNG_SUFFIX  = ".png";
+	 
+	 /**点*/
+	 public static final String DOT  = "."; 
 	
 }

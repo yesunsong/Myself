@@ -259,6 +259,8 @@
     <ClInclude Include="..\Classes\pattern\command\CommandManager.h">
       <Filter>pattern\command</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\pattern\state\BaseState.h" />
+    <ClInclude Include="..\Classes\pattern\state\StateManager.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Classes\ui\base\ACheckBox.cpp">
@@ -400,5 +402,9 @@
     <ClCompile Include="..\Classes\pattern\command\CommandManager.cpp">
       <Filter>pattern\command</Filter>
     </ClCompile>
+    <ClCompile Include="..\Classes\pattern\state\StateManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\Classes\pattern\state\tmp.txt" />
   </ItemGroup>
 </Project>
