@@ -1,4 +1,5 @@
 import java.io.File;
+import java.util.HashMap;
 
 import cn.xm.yss.AntUtils;
 import cn.xm.yss.JsonUtils;
@@ -23,6 +24,10 @@ public class Main {
 			resource_path = JsonUtils.getInstance().getString("Mac_Resources_Path");
 		}
 		
-		AntUtils.getInstance().executeTarget(xml_path, target);
+		HashMap<String, String> map = new HashMap<>();
+		map.put("directory_path", resource_path);
+		AntUtils.getInstance().executeTarget(xml_path, target,map);
+		
+		System.out.println("The process of removing png ends!!!");
 	}
 }

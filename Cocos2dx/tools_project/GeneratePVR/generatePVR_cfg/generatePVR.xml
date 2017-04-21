@@ -44,28 +44,6 @@
 
 	<taskdef name="Sample" classname="MyTask" classpath="MyTask.java" />
 
-	<target name="directory">
-		<!--生成目录下的pvr.ccz文件 -->
-<!-- 		<Sample dir="${directory_path}"> -->
-<!-- 			<fileset dir="${directory_path}" casesensitive="yes"> -->
-<!-- 				<exclude name="**/*.pvr" /> -->
-<!-- 				<exclude name="**/*.pvr.ccz" /> -->
-<!-- 				<exclude name="**/*.plist" /> -->
-<!-- 				<exclude name="**/*.fsh" /> -->
-<!-- 				<exclude name="**/*.vsh" /> -->
-<!-- 				<exclude name="**/*.json" /> -->
-<!-- 				<exclude name="**/*.mp3" /> -->
-<!-- 				<exclude name="**/*.mp4" /> -->
-<!-- 				<exclude name="**/*.wav" /> -->
-<!-- 				<exclude name="**/*.ExportJson" /> -->
-<!-- 				<exclude name="**/*.ttf" /> -->
-<!-- 				<exclude name="**/*.csb" /> -->
-<!-- 				<exclude name="**/*.xml" /> -->
-<!-- 				<exclude name="**/*.jpg" />					 -->
-<!-- 			</fileset> -->
-<!-- 		</Sample> -->
-	</target>
-
 	<property name="delete_filename" value="" />
 	<target name="delete_file">
 		<delete file="${delete_filename}" />

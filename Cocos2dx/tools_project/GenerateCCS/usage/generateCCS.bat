@@ -1,1 +1,1 @@
-ant
+ant -buildfile GenerateCCS.xml

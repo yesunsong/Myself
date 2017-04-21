@@ -19,8 +19,7 @@ public class GenerateCCS {
 
 		StringBuffer buffer = new StringBuffer();
 		buffer.append("<Solution>").append("\n");
-		buffer.append(
-				"<PropertyGroup Name=\"HuangGuangPro\" Version=\"3.10.0.0\" Type=\"CocosStudio\" />")
+		buffer.append("<PropertyGroup Name=\"HuangGuangPro\" Version=\"3.10.0.0\" Type=\"CocosStudio\" />")
 				.append("\n");
 		buffer.append("<SolutionFolder>").append("\n");
 		buffer.append("<Group ctype=\"ResourceGroup\">").append("\n");
@@ -39,7 +38,7 @@ public class GenerateCCS {
 		buffer.append("</SolutionFolder>").append("\n");
 		buffer.append("</Solution>").append("\n");
 
-//		System.out.println(buffer.toString());
+		// System.out.println(buffer.toString());
 
 		File file = new File(outputDir + File.separator + "HuangGuangPro.ccs");
 		if (file.exists()) {
@@ -47,8 +46,7 @@ public class GenerateCCS {
 		}
 		BufferedWriter writer;
 		try {
-			writer = new BufferedWriter(new OutputStreamWriter(
-					new FileOutputStream(file)));
+			writer = new BufferedWriter(new OutputStreamWriter(new FileOutputStream(file)));
 			writer.write(buffer.toString());
 			writer.close();
 		} catch (FileNotFoundException e) {
@@ -74,8 +72,7 @@ public class GenerateCCS {
 			}
 		}
 
-		if (file.getName().endsWith(".png") || file.getName().endsWith(".jpg")
-				|| file.getName().endsWith(".PNG")
+		if (file.getName().endsWith(".png") || file.getName().endsWith(".jpg") || file.getName().endsWith(".PNG")
 				|| file.getName().endsWith(".JPG")) {
 			buffer.append(getPNG(file.getName()));
 		}
@@ -87,15 +84,15 @@ public class GenerateCCS {
 		if (file.getName().endsWith(".fnt")) {
 			buffer.append(getFNT(file.getName()));
 		}
-		
-		if(file.getName().endsWith(".ExportJson")){
+
+		if (file.getName().endsWith(".ExportJson")) {
 			buffer.append(getExportJson(file.getName()));
-		}	
-//		
-		if(file.getName().endsWith(".ttf")){
+		}
+		//
+		if (file.getName().endsWith(".ttf")) {
 			buffer.append(getTTF(file.getName()));
-		}	
-		
+		}
+
 		if (isDir) {
 			buffer.append(getEndFolder(file.getName()));
 		}
@@ -104,24 +101,22 @@ public class GenerateCCS {
 	}
 
 	private String getTTF(String name) {
-		return "<TTF Name=\""+name+"\"/>";
+		return "<TTF Name=\"" + name + "\"/>";
 	}
 
 	private String getExportJson(String name) {
-		return "<ExportJsonFile Name=\""+name+"\"/>";
+		return "<ExportJsonFile Name=\"" + name + "\"/>";
 	}
 
 	private String getCSD(File file) {
 		String type = "";
 		try {
-			BufferedReader reader2 = new BufferedReader(new InputStreamReader(
-					new FileInputStream(file)));
+			BufferedReader reader2 = new BufferedReader(new InputStreamReader(new FileInputStream(file)));
 			String text = "";
 			while (!(text = reader2.readLine()).equals("")) {
 				if (text.contains("Type=\"")) {
 					int index = text.indexOf("Type=\"");
-					String tmpString = text.substring(
-							index + "Type=\"".length(), text.length() - 1);
+					String tmpString = text.substring(index + "Type=\"".length(), text.length() - 1);
 					int secIndex = tmpString.indexOf("\"");
 					if (secIndex != -1) {
 						type = tmpString.substring(0, secIndex);
@@ -136,16 +131,15 @@ public class GenerateCCS {
 			e.printStackTrace();
 		}
 
-		return "<Project Name=\"" + file.getName() + "\"" + " Type=\"" + type
-				+ "\" />\n";
+		return "<Project Name=\"" + file.getName() + "\"" + " Type=\"" + type + "\" />\n";
 	}
 
 	private Object getFNT(String name) {
-		return "<Fnt Name=\""+name+"\" />\n";
+		return "<Fnt Name=\"" + name + "\" />\n";
 	}
 
 	private String getPNG(String name) {
-		
+
 		return "<Image Name=\"" + name + "\" />\n";
 	}
 

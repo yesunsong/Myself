@@ -1,4 +1,4 @@
-CocosStudio�½���Ŀ��Ŀ¼�ṹ
+﻿CocosStudio新建项目的目录结构
 --Classes
 --cocosstudio
 --proj.android
@@ -12,8 +12,8 @@ CocosStudio�½���Ŀ��Ŀ¼�ṹ
 --xxxx.udf
 =========================================================
 
-�ο���Ŀ¼�ṹ����������߼���
-1.��ResourceĿ¼�µ���Դ������cocosstudioĿ¼��
-2.��cocosstudio����һcsbĿ¼�������������е�csb�ļ�����Ŀ¼��ģ�黮�֡���svn�ϸ���cocosstudio����ֻ��csbĿ¼�ᱻ�ύ��svn�ϣ����಻�ᡣ��
-3.generateCCS.bat���������µ�ccs�ļ���
+参考该目录结构，完成以下逻辑：
+1.把Resource目录下的资源拷贝到cocosstudio目录下
+2.在cocosstudio下有一csb目录，里面存放着所有的csb文件。子目录按模块划分。从svn上更新cocosstudio。【只有csb目录会被提交到svn上，其余不会。】
+3.generateCCS.bat会运行最新的ccs文件。
 

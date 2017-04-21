@@ -27,6 +27,8 @@ public class Main {
 
 	private static ArrayList<Thread> threads;
 
+	private static String xml_path;
+	
 	public static void main(String[] args) {
 		commonDirs = new ArrayList<>();
 		commonFiles = new ArrayList<>();
@@ -36,7 +38,7 @@ public class Main {
 		// 
 		String user_dir = System.getProperty("user.dir");
 		String config_path = user_dir + File.separator + "delete_cfg" + File.separator + "config.json";
-		String xml_path = user_dir + File.separator + "delete_cfg" + File.separator + "deleteRes.xml";
+		xml_path = user_dir + File.separator + "delete_cfg" + File.separator + "deleteRes.xml";
 		System.out.println("-----config path:" + config_path);
 		System.out.println("-----xml path:" + xml_path);
 
@@ -93,6 +95,8 @@ public class Main {
 					System.out.println(tmpFile.getAbsolutePath() + " not occur");
 					continue;
 				}
+				
+				copyRunnable.xml_path = xml_path;
 				if (isCopyDir) {
 					copyRunnable.directory = list.get(i);
 				} else {
