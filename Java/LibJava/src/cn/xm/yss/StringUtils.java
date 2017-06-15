@@ -2,6 +2,8 @@ package cn.xm.yss;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 /**
  * 字符串操作工具类
@@ -42,11 +44,11 @@ public class StringUtils {
 			list.add(string.replace(JavaMacro.SLASH, JavaMacro.BACKSLASH));
 		}
 	}
-	
+
 	public String replace(String string, char oldChar, char newChar) {
 		return string.replace(oldChar, newChar);
 	}
-	
+
 	/** 实现字节数组向十六进制的转换方法 */
 	public String byte2HexStr(byte[] b) {
 		String hs = "";
@@ -60,4 +62,22 @@ public class StringUtils {
 		}
 		return hs.toUpperCase();
 	}
+
+	/**
+	 * 是否包含中文
+	 * @param string
+	 * @return
+	 */
+	public boolean containsChinese(String string) {
+		String regEx = "[\u4e00-\u9fa5]";
+		Pattern pattern = Pattern.compile(regEx);
+		Matcher matcher = pattern.matcher(string);
+		boolean flg = false;
+		if (matcher.find()) {
+			flg = true;
+		}
+		return flg;
+
+	}
+
 }
