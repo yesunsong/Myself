@@ -1,5 +1,6 @@
 import test.FileUtilsTest;
 import test.HttpUtilsTest;
+import test.POITest;
 import test.PrintStreamTest;
 import test.StringUtilsTest;
 
@@ -9,7 +10,8 @@ public class Main {
 //		(new StringUtilsTest()).test();	
 //		(new FileUtilsTest()).test();
 //		(new PrintStreamTest()).test();
-		(new HttpUtilsTest()).test();
+//		(new HttpUtilsTest()).test();
+		(new POITest()).test();
 	}
 	
 }

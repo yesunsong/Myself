@@ -33,5 +33,6 @@
 	<classpathentry kind="lib" path="libJson/json-lib-2.4-jdk15.jar"/>
 	<classpathentry kind="lib" path="libHttp/httpclient-4.5.3.jar"/>
 	<classpathentry kind="lib" path="libHttp/httpcore-4.4.6.jar"/>
+	<classpathentry kind="lib" path="libPOI/poi-3.16.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
